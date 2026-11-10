@@ -72,6 +72,8 @@ Olá! Sou **Cauã Gustavo da Silva Bernardino**, desenvolvedor de software de 21
 
 Atualmente faço parte da equipe da **Workflow Business**, referência capixaba em comunicação inteligente e chatbots de IA, onde sou responsável por integrações críticas de CRM, webhooks, infraestrutura e suporte especializado a clientes corporativos.
 
+Além do desenvolvimento de software, possuo conhecimento prático e vivência em **infraestrutura Cloud e administração de servidores VPS (Hostinger)**. Gerencio pessoalmente uma VPS Linux dedicada onde hospedo e mantenho o serviço de **WhatsApp via API não oficial** em containers Docker. Esse servidor atua como um *Gateway de Mensageria Central*, fornecendo envio/recebimento de mensagens em tempo real, webhooks bidirecionais e automações avançadas para todas as plataformas do meu ecossistema (Workut, HELPIA, PubliView360, Vetio, JoySweet e integrações de checkout da Hubla e Hotmart).
+
 Em paralelo, sou autor técnico e co-fundador de **6 plataformas SaaS independentes** consolidadas no **Manual Técnico e de Negócios 2026 (Programa Supernova · Sebrae)**, com aplicações ativas em campanhas eleitorais, redes de estética, clínicas médicas veterinárias e no mercado criativo capixaba.
 
 Também tenho a honra de ter sido selecionado como **Embaixador Estudantil do Google 2026** (Google Student Ambassador pelo programa Amplifica / Google for Education / Gemini) e autor de pesquisa de Iniciação Científica financiada pela **FAPES**.
@@ -136,7 +138,10 @@ A **Workflow Business** é uma das principais empresas capixabas especializadas 
   - **Sistemas de Medicina & Saúde:** Conexão de agendas médicas e prontuários com fluxos automatizados de lembrete e confirmação de consultas.
   - **Plataformas LMS e Cursos Online:** Sincronização de alunos, progresso e suporte automatizado.
 - **Desenvolvimento Web & Sites:** Criação de interfaces responsivas, páginas de captura de alta conversão e sistemas internos.
-- **Servidor Próprio de WhatsApp (WAHA Docker em VPS):** Gestão e manutenção de instâncias de comunicação dedicadas e isoladas em ambiente cloud para suporte de grande volume de mensagens.
+- **Servidor VPS Próprio (Hostinger) & WhatsApp Gateway Dedicado:**
+  - Configuração, administração e hardening de servidor **Linux VPS na Hostinger**.
+  - Operação de motor de **WhatsApp via API não oficial** rodando em containers **Docker** com arquitetura HTTP/WebSocket.
+  - Provimento de mensageria centralizada com webhooks bidirecionais de alta velocidade e resiliência a desconexões, alimentando as automações de todas as minhas plataformas e integrações (Hubla, Hotmart, agendamentos e CRM).
 
 ---
 
@@ -378,9 +383,10 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
     <tr>
       <td><strong>WhatsApp & Automação</strong></td>
       <td>
-        <img src="https://img.shields.io/badge/Meta_Cloud_API-0668E1?style=flat-square&logo=meta" />
-        <img src="https://img.shields.io/badge/WAHA_(Docker_HTTP_API)-25D366?style=flat-square&logo=whatsapp" />
-        <img src="https://img.shields.io/badge/n8n_Workflows-EA4B71?style=flat-square&logo=n8n" />
+        <img src="https://img.shields.io/badge/API_Não_Oficial_WhatsApp-25D366?style=flat-square&logo=whatsapp&logoColor=white" />
+        <img src="https://img.shields.io/badge/WAHA_(Docker_HTTP_API)-128C7E?style=flat-square&logo=whatsapp&logoColor=white" />
+        <img src="https://img.shields.io/badge/Meta_Cloud_API-0668E1?style=flat-square&logo=meta&logoColor=white" />
+        <img src="https://img.shields.io/badge/n8n_Workflows-EA4B71?style=flat-square&logo=n8n&logoColor=white" />
         <img src="https://img.shields.io/badge/Webhooks_Idempotentes-475569?style=flat-square" />
       </td>
     </tr>
@@ -394,14 +400,14 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
       </td>
     </tr>
     <tr>
-      <td><strong>Infra, Redes & DevTools</strong></td>
+      <td><strong>Cloud, VPS & Infraestrutura</strong></td>
       <td>
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+        <img src="https://img.shields.io/badge/Hostinger_VPS-673AB7?style=flat-square&logo=hostinger&logoColor=white" />
+        <img src="https://img.shields.io/badge/Linux_Ubuntu_Server-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+        <img src="https://img.shields.io/badge/Docker_Containers-2496ED?style=flat-square&logo=docker&logoColor=white" />
         <img src="https://img.shields.io/badge/Vercel_Edge-000000?style=flat-square&logo=vercel&logoColor=white" />
+        <img src="https://img.shields.io/badge/Cloudflare_DNS_&_SSL-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
         <img src="https://img.shields.io/badge/Wireshark_Network_Analysis-1679A7?style=flat-square&logo=wireshark&logoColor=white" />
-        <img src="https://img.shields.io/badge/Cloudflare_DNS-F38020?style=flat-square&logo=cloudflare&logoColor=white" />
-        <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code" />
-        <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B" />
       </td>
     </tr>
   </tbody>
