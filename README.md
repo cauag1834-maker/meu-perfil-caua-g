@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER ANIMADO -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=15,19,24,28,34&height=260&section=header&text=Cauã%20Gustavo%20da%20Silva&fontSize=42&fontAlignY=34&desc=Full%20Stack%20Engineer%20%7C%20AI%20&%20Cloud%20Solutions%20%7C%20Google%20Student%20Ambassador%202026&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Banner Cauã Gustavo" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=15,19,24,28,34&height=260&section=header&text=Cauã%20Gustavo%20da%20Silva&fontSize=42&fontAlignY=34&desc=Engenharia%20da%20Computa%C3%A7%C3%A3o%20(6%C2%BA%20Per%C3%ADodo%20%C2%B7%20Multivix%20Vit%C3%B3ria)%20%7C%20Full%20Stack%20&%20IA&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Banner Cauã Gustavo" width="100%" />
 
 <!-- FOTO DE PERFIL OFICIAL -->
 <p align="center">
@@ -39,7 +39,7 @@
 <p align="center">
   📍 <strong>Espírito Santo, Brasil</strong> &nbsp;|&nbsp; 
   🎂 <strong>21 anos</strong> &nbsp;|&nbsp; 
-  💼 <strong>Full Stack & AI Engineer</strong> &nbsp;|&nbsp; 
+  🎓 <strong>Engenharia da Computação (6º Período · Multivix Vitória)</strong> &nbsp;|&nbsp; 
   📄 <a href="curriculo-caua-gustavo.pdf" target="_blank"><strong>Currículo (PDF)</strong></a> &nbsp;|&nbsp; 
   📑 <a href="portfolio-caua-gustavo.pdf" target="_blank"><strong>Portfólio (PDF)</strong></a> &nbsp;|&nbsp; 
   🔗 <a href="https://www.linkedin.com/in/cau%C3%A3-gustavo-da-silva-bernardino-455005304/" target="_blank"><strong>LinkedIn</strong></a> &nbsp;|&nbsp; 
@@ -78,7 +78,7 @@
 > ### ⚡ Frase de Efeito & Posicionamento
 > *"Onde há processos para otimizar, eu e minha equipe entramos, organizamos e transformamos tecnologia em realidade e resultado comercial."*
 
-Olá! Sou **Cauã Gustavo da Silva Bernardino**, desenvolvedor de software de 21 anos residente no Espírito Santo. Atuo na intersecção entre **engenharia de software**, **organização empresarial**, **otimização de processos comerciais** e **inteligência artificial aplicada a negócios**.
+Olá! Sou **Cauã Gustavo da Silva Bernardino**, estudante do **6º período de Engenharia da Computação na Faculdade Multivix Vitória** (21 anos, residente no Espírito Santo). Atuo na intersecção entre **engenharia da computação**, **desenvolvimento full stack**, **organização empresarial**, **otimização de processos comerciais** e **inteligência artificial aplicada a negócios**.
 
 ### 🏢 Minha Principal Especialidade: Organização Empresarial & Processos Comerciais
 O fator primordial pelo qual diretores, empresários e sócios-investidores me chamam para liderar seus projetos é a capacidade de **organização empresarial e reestruturação de processos comerciais**:
@@ -381,6 +381,10 @@ Além das plataformas SaaS completas, presto serviços especializados de **Desen
   <br />
   <em>Certificado oficial: Cauã Gustavo da Silva Bernardino — Embaixador Estudantil do Google 2026</em>
 </div>
+
+### 🎓 Engenharia da Computação — Faculdade Multivix Vitória
+- Cursando atualmente o **6º período** do curso de Bacharelado em **Engenharia da Computação** no campus Multivix Vitória (ES).
+- Formação com ênfase em arquitetura de computadores, sistemas operacionais, redes de dados, sistemas distribuídos e inteligência artificial aplicada.
 
 ### 🌟 Embaixador Estudantil do Google 2026
 - Selecionado para o programa oficial **Embaixadores Estudantis do Google 2026**, realizado em parceria com o **Amplifica** e **Google for Education**.

@@ -378,7 +378,7 @@ html_content = f"""<!DOCTYPE html>
     <div class="header-p1">
       <img src="{img_b64}" alt="Cauã Gustavo da Silva Bernardino" class="avatar" />
       <h1 class="name">Cauã Gustavo da Silva Bernardino</h1>
-      <div class="role">Engenheiro de Software | Full Stack & Inteligência Artificial</div>
+      <div class="role">Estudante de Engenharia da Computação · 6º Período (Multivix Vitória)</div>
       <p class="quote">
         "Onde há processos a serem otimizados, eu e minha equipe entramos, organizamos a operação e transformamos tecnologia em realidade e resultado comercial."
       </p>
@@ -429,7 +429,7 @@ html_content = f"""<!DOCTYPE html>
             <span class="section-title-icon">💼</span> Perfil Profissional
           </div>
           <p class="summary-text">
-            Desenvolvedor Full Stack de 21 anos com perfil orientado a <strong>Engenharia da Computação</strong>, <strong>Organização Empresarial</strong> e <strong>Otimização de Processos Comerciais</strong>.
+            Estudante do 6º período de <strong>Engenharia da Computação na Faculdade Multivix Vitória</strong>, desenvolvedor Full Stack e Especialista em <strong>Organização Empresarial</strong> & <strong>Otimização de Processos Comerciais</strong>.
           </p>
           <p class="summary-text" style="margin-top: 5px;">
             Especialista na concepção e sustentação de microsserviços, ecossistemas SaaS multi-tenant, gateways de mensageria em Cloud VPS e soluções avançadas com <strong>Inteligência Artificial (Google Gemini)</strong>. Diferencial reconhecido em liderar diagnósticos operacionais e transformar fluxos manuais em faturamento e escala real.
@@ -571,7 +571,7 @@ html_content = f"""<!DOCTYPE html>
     <div class="header-p2">
       <div>
         <div class="header-p2-name">Cauã Gustavo da Silva Bernardino</div>
-        <div class="header-p2-role">Engenharia de Software · IA & Organização Empresarial</div>
+        <div class="header-p2-role">Engenharia da Computação (6º Período · Multivix Vitória) · Full Stack & IA</div>
       </div>
       <div class="header-p2-contact">
         +55 (27) 99781-7164 · cauag1834@gmail.com<br>
@@ -592,11 +592,11 @@ html_content = f"""<!DOCTYPE html>
           </div>
           
           <div style="margin-bottom: 7px;">
-            <div style="font-weight: 800; font-size: 8.5pt; color: #0f172a;">Engenharia da Computação / Tecnologia</div>
-            <div style="font-size: 7.8pt; color: #0284c7; font-weight: 600;">Graduação em Andamento</div>
-            <div style="font-size: 7.5pt; color: #64748b;">Espírito Santo, Brasil</div>
+            <div style="font-weight: 800; font-size: 8.5pt; color: #0f172a;">Engenharia da Computação (Bacharelado)</div>
+            <div style="font-size: 7.8pt; color: #0284c7; font-weight: 700;">Faculdade Multivix Vitória · 6º Período</div>
+            <div style="font-size: 7.5pt; color: #64748b;">Vitória/ES · Graduação em andamento</div>
             <p style="font-size: 7.5pt; color: #475569; margin-top: 2px;">
-              Foco em Arquitetura de Software, Sistemas Distribuídos, Algoritmos e Inteligência Artificial.
+              Foco em Arquitetura de Computadores, Sistemas Distribuídos, Algoritmos, Redes e Inteligência Artificial.
             </p>
           </div>
 
