@@ -21,10 +21,12 @@
   <a href="https://www.publiview.online/" target="_blank"><img src="https://img.shields.io/badge/PubliView_Online-publiview.online-38BDF8?style=flat-square&logo=googlechrome&logoColor=white" alt="PubliView Online" /></a>
   <a href="https://business.publiview360.com.br/" target="_blank"><img src="https://img.shields.io/badge/PubliView_Business-business.publiview360.com.br-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="PubliView Business" /></a>
   <a href="https://publicidadees.com.br/" target="_blank"><img src="https://img.shields.io/badge/Publicidade_ES-publicidadees.com.br-FE2C55?style=flat-square&logo=googlechrome&logoColor=white" alt="Publicidade ES" /></a>
+  <a href="https://www.joysweet.online/" target="_blank"><img src="https://img.shields.io/badge/JoySweet_Fidelidade-joysweet.online-EC4899?style=flat-square&logo=googlechrome&logoColor=white" alt="JoySweet" /></a>
 </p>
 
 <!-- STATUS BADGES -->
 <p align="center">
+  <a href="https://www.linkedin.com/in/cau%C3%A3-gustavo-da-silva-bernardino-455005304/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Perfil_Profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="#-atuação-profissional-workflow-business"><img src="https://img.shields.io/badge/Empresa_Atual-Workflow_Business-007ACC?style=for-the-badge&logo=slack&logoColor=white" alt="Workflow Business" /></a>
   <a href="#-embaixador-estudantil-do-google-2026"><img src="https://img.shields.io/badge/Google-Student_Ambassador_2026-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Ambassador" /></a>
   <a href="#-as-6-plataformas-digitais-documentação-mestra"><img src="https://img.shields.io/badge/Portfólio-6_Plataformas_SaaS-10B981?style=for-the-badge&logo=rocket&logoColor=white" alt="6 SaaS" /></a>
@@ -35,6 +37,7 @@
   📍 <strong>Espírito Santo, Brasil</strong> &nbsp;|&nbsp; 
   🎂 <strong>21 anos</strong> &nbsp;|&nbsp; 
   💼 <strong>Full Stack & AI Engineer</strong> &nbsp;|&nbsp; 
+  🔗 <a href="https://www.linkedin.com/in/cau%C3%A3-gustavo-da-silva-bernardino-455005304/" target="_blank"><strong>LinkedIn</strong></a> &nbsp;|&nbsp; 
   🌐 <a href="https://github.com/cauag1834-maker"><strong>@cauag1834-maker</strong></a>
 </p>
 
@@ -107,7 +110,7 @@ O portfólio e as plataformas desenvolvidas reúnem clientes reais, mandatos, fi
 | **FF Pet Center** *(Vila Velha/ES)* | Clínica Veterinária & Pet Center | **Vetio 2.0** | Prontuário médico digital em uso clínico diário, vacinas por lote (FEFO) e implantação das **Smart Tags QR/NFC** com resgate SOS. |
 | **Assistências Técnicas de Celular do ES** | Manutenção & Reparo de Dispositivos | **HELPIA** | Atendimento centralizado por WhatsApp, Ordens de Serviço (OS) com fotos e PDF timbrado, além de cobrança automática por Pix. |
 | **Carteira de 400+ Médicos e Clínicas**<br>*(Agências 4Nexus & Viso)* | Saúde, Odontologia & Estética | **MedSystem** | Base médica em fase de homologação com prontuário por voz via **Google Gemini** (SOAP), receita digital **Memed (ICP-Brasil)** e split financeiro. |
-| **Empreendedora Universitária UFES**<br>*(Doces & Artesanatos)* | Empreendedorismo Estudantil | **Cartão Fidelidade Digital** | Sistema 100% online e automatizado de fidelização e cashback para aluna da Universidade Federal do Espírito Santo. |
+| [**JoySweet**](https://www.joysweet.online/)<br>*(Aluna & Empreendedora UFES)* | Doces & Artesanatos Universitários | **Cartão Fidelidade Digital** | Sistema 100% online e automatizado de fidelização e cashback para aluna da Universidade Federal do Espírito Santo ([joysweet.online](https://www.joysweet.online/) ↗). |
 | **Contas Corporativas da Workflow** | Chatbots, CRM & IA | **Workflow Business** | Suporte técnico avançado e engenharia de integrações com formulários Meta Ads (Leads), Hotmart, Ubla e sistemas de saúde. |
 
 ---
@@ -128,7 +131,8 @@ A **Workflow Business** é uma das principais empresas capixabas especializadas 
 - **Suporte Técnico Especializado de Nível Avançado:** Diagnóstico de incidentes, resolução de gargalos operacionais e acompanhamento direto das contas empresariais.
 - **Engenharia de Integrações de Alto Impacto:**
   - **Meta Ads / Lead Ads Webhooks:** Integração dos formulários nativos de anúncios da Meta diretamente com o CRM e APIs de disparo, transformando leads em conversas ativas no WhatsApp em menos de 3 segundos.
-  - **Plataformas de Infoproduto e Checkout:** Integrações com **Hotmart** e **Ubla** (recuperação de carrinho, confirmação de venda, entrega imediata de credenciais via bot).
+  - **Integração Hubla (Carrinho Abandonado & Pagamento Confirmado):** Sistema integrado via Webhook que monitora a jornada de compra: se o cliente adiciona ao carrinho e não conclui, o sistema dispara lembrete automático no WhatsApp após período configurado; quando o pagamento é aprovado, envia automaticamente as instruções e o link exclusivo para ingresso no grupo do curso adquirido ([Ver demonstração no LinkedIn](https://lnkd.in/p/d-pWFhrH) ↗).
+  - **Plataformas de Infoproduto e Checkout:** Integrações com **Hubla** e **Hotmart** (recuperação de carrinho, confirmação de venda, entrega imediata de credenciais via bot).
   - **Sistemas de Medicina & Saúde:** Conexão de agendas médicas e prontuários com fluxos automatizados de lembrete e confirmação de consultas.
   - **Plataformas LMS e Cursos Online:** Sincronização de alunos, progresso e suporte automatizado.
 - **Desenvolvimento Web & Sites:** Criação de interfaces responsivas, páginas de captura de alta conversão e sistemas internos.
@@ -206,6 +210,7 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
   - 🗳️ **Arnaldinho Borgo** (Prefeito de Vila Velha) — A plataforma atendeu a rede de candidatos alinhados ao seu grupo político.
   - 🗳️ **Lyza Herzog** (Candidata a Deputada Estadual) — 50 santinhos digitais ativos e 20 números de WhatsApp dedicados.
   - 🗳️ **Arnóbio** (Aliado de Lorenzo Pazolini) — Utilizou o módulo de monitoramento de redes e inteligência de dados.
+- **📰 Repercussão na Imprensa & Mídia:** Matéria especial detalhando a solução PubliView no mercado de inteligência política e mobilização ([Ver matéria no LinkedIn](https://lnkd.in/p/dmEe2-Z6) ↗).
 - **Stack Técnica:** Next.js 14, Supabase (RLS por comitê/campanha), Vercel Edge, APIs da Meta e WhatsApp clusterizado.
 
 ---
@@ -290,11 +295,19 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
 - Selecionado para o programa oficial **Embaixadores Estudantis do Google 2026**, realizado em parceria com o **Amplifica** e **Google for Education**.
 - Capacitação avançada em soluções **Google Gemini (Study Notebook & IA Generativa)** e liderança na disseminação de IA aplicada à rotina acadêmica e corporativa.
 
-### 🔬 Iniciação Científica — FAPES
-- Pesquisa científica desenvolvida com fomento da **FAPES** (Fundação de Amparo à Pesquisa e Inovação do Espírito Santo), focada no mapeamento e combate a preconceitos no ambiente escolar por meio de dados e metodologias sociais.
+### 🔬 Iniciação Científica — EMESCAM & FAPES
+- Projeto de pesquisa científica realizado em parceria entre a **EMESCAM** (Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória) e a **FAPES** (Fundação de Amparo à Pesquisa e Inovação do ES).
+- Focado no mapeamento e combate a preconceitos no ambiente das escolas públicas, unindo dados sociais e metodologias reflexivas para promover inclusão ([Ver publicação no LinkedIn](https://lnkd.in/p/dug5TaMp) ↗).
 
-### 🎓 Cartão de Fidelidade Digital — UFES
-- Criação e entrega de um sistema de fidelidade e cashback 100% digital e automático para uma microempreendedora e aluna da Universidade Federal do Espírito Santo (UFES), apoiando seu negócio de doces e artesanato universitário sem custo de infraestrutura.
+### 🎓 Cartão de Fidelidade Digital — JoySweet (UFES)
+- Criação e entrega da plataforma [**JoySweet**](https://www.joysweet.online/), sistema 100% online e automatizado de fidelidade e cashback para aluna e microempreendedora da Universidade Federal do Espírito Santo (UFES), apoiando seu negócio de doces e artesanato universitário ([Acessar joysweet.online](https://www.joysweet.online/) ↗).
+
+### ⚡ Formação Técnica & Certificações Industriais — Vale S.A.
+- **Curso de PLC (Controladores Lógicos Programáveis):** Capacitação técnica em automação e controle industrial na **Vale** ([Ver publicação no LinkedIn](https://lnkd.in/p/dYF356WA) ↗).
+- **Cerimônia de Entrega de Certificados Vale:** Conclusão oficial e certificação reconhecida pela multinacional ([Ver publicação no LinkedIn](https://lnkd.in/p/dgB-Jq92) ↗).
+
+### 💻 Apresentação Acadêmica — Arquitetura de Sistemas Distribuídos & WhatsApp Multi-tenant
+- Desenvolvimento e defesa acadêmica de uma plataforma de atendimento WhatsApp multi-tenant de alta escalabilidade, com servidor próprio rodando API dedicada, IA customizável para triagem inteligente por departamento, chat interno e módulo ERP ([Ver publicação completa no LinkedIn](https://lnkd.in/p/dN8anvkq) ↗).
 
 ### 🧠 Imersão em IA — Evento IAP (IA na Prática)
 <div align="center">
@@ -451,10 +464,12 @@ Um ecossistema tecnológico só prospera com parcerias sólidas e suporte estrat
 Estou sempre aberto a novos projetos, parcerias estratégicas, consultorias de integração de IA e oportunidades desafiadoras:
 
 <p align="center">
-  <a href="https://github.com/cauag1834-maker"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://space.workflow.app.br"><img src="https://img.shields.io/badge/Workflow_Business-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Workflow" /></a>
-  <a href="https://publicidadees.com.br"><img src="https://img.shields.io/badge/Publicidade_ES-FE2C55?style=for-the-badge&logo=safari&logoColor=white" alt="Publicidade ES" /></a>
-  <a href="https://workut.cc"><img src="https://img.shields.io/badge/Workut-FF9900?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Workut" /></a>
+  <a href="https://www.linkedin.com/in/cau%C3%A3-gustavo-da-silva-bernardino-455005304/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://github.com/cauag1834-maker" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://workflow.app.br" target="_blank"><img src="https://img.shields.io/badge/Workflow_Business-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Workflow" /></a>
+  <a href="https://publicidadees.com.br" target="_blank"><img src="https://img.shields.io/badge/Publicidade_ES-FE2C55?style=for-the-badge&logo=safari&logoColor=white" alt="Publicidade ES" /></a>
+  <a href="https://workut.cc" target="_blank"><img src="https://img.shields.io/badge/Workut-FF9900?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Workut" /></a>
+  <a href="https://www.joysweet.online" target="_blank"><img src="https://img.shields.io/badge/JoySweet-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" alt="JoySweet" /></a>
 </p>
 
 <div align="center">
