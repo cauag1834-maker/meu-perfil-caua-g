@@ -37,7 +37,7 @@
 </p>
 
 <p align="center">
-  📍 <strong>Espírito Santo, Brasil</strong> &nbsp;|&nbsp; 
+  📍 <strong>Vitória – ES (Nova Palestina)</strong> &nbsp;|&nbsp; 
   🎂 <strong>21 anos</strong> &nbsp;|&nbsp; 
   🎓 <strong>Engenharia da Computação (6º Período · Multivix Vitória)</strong> &nbsp;|&nbsp; 
   📄 <a href="curriculo-caua-gustavo.pdf" target="_blank"><strong>Currículo (PDF)</strong></a> &nbsp;|&nbsp; 
@@ -385,6 +385,14 @@ Além das plataformas SaaS completas, presto serviços especializados de **Desen
 ### 🎓 Engenharia da Computação — Faculdade Multivix Vitória
 - Cursando atualmente o **6º período** do curso de Bacharelado em **Engenharia da Computação** no campus Multivix Vitória (ES).
 - Formação com ênfase em arquitetura de computadores, sistemas operacionais, redes de dados, sistemas distribuídos e inteligência artificial aplicada.
+
+### 🛡️ Desenvolvimento de Web App Veterinário — Projeto Acadêmico (Polícia Militar)
+- Desenvolvimento de aplicação Web prática em **FlutterFlow** e banco de dados relacional para o setor veterinário da corporação policial (atendimento a cães e equinos).
+- Módulos de relatórios operacionais estruturados e rotinas para cálculo automático rigoroso de dosagens de vacinas e medicamentos.
+
+### 🏆 Destaque Comercial & Performance — OK Bank
+- Atuação como correspondente bancário e vendas com superação de metas e atendimento de excelência.
+- Reconhecido com destaque público oficial no LinkedIn do **OK BANK** entre os melhores vendedores da empresa.
 
 ### 🌟 Embaixador Estudantil do Google 2026
 - Selecionado para o programa oficial **Embaixadores Estudantis do Google 2026**, realizado em parceria com o **Amplifica** e **Google for Education**.
