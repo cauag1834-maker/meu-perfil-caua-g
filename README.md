@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%26+Especialista+em+Integra%C3%A7%C3%B5es+de+IA;Engenharia+de+Automa%C3%A7%C3%B5es+%26+Chatbots+na+Workflow+Business;Embaixador+Estudantil+do+Google+2026;Arquiteto+de+Solu%C3%A7%C3%B5es+SaaS+Multi-Tenant+%26+APIs+WhatsApp;Transformando+c%C3%B3digo+em+impacto+comercial+e+social" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%26+Arquiteto+de+Software;Especialista+em+Organiza%C3%A7%C3%A3o+Empresarial+%26+Processos+Comerciais;Engenharia+de+Automa%C3%A7%C3%B5es+%26+Chatbots+na+Workflow;Onde+h%C3%A1+processos%2C+eu+entro%2C+organizo+e+transformo;Transformando+projetos+em+realidade+e+resultado+comercial;Embaixador+Estudantil+do+Google+2026" alt="Typing SVG" />
 </p>
 
 <!-- LINKS DOS SITES NO AR -->
@@ -71,7 +71,16 @@
 
 ## 👋 Sobre Mim
 
-Olá! Sou **Cauã Gustavo da Silva Bernardino**, desenvolvedor de software de 21 anos residente no Espírito Santo. Atuo na intersecção entre **desenvolvimento full stack**, **arquitetura de sistemas SaaS multi-tenant**, **engenharia de inteligência artificial** e **automações avançadas de comunicação e atendimento**.
+> ### ⚡ Frase de Efeito & Posicionamento
+> *"Onde há processos para otimizar, eu e minha equipe entramos, organizamos e transformamos tecnologia em realidade e resultado comercial."*
+
+Olá! Sou **Cauã Gustavo da Silva Bernardino**, desenvolvedor de software de 21 anos residente no Espírito Santo. Atuo na intersecção entre **engenharia de software**, **organização empresarial**, **otimização de processos comerciais** e **inteligência artificial aplicada a negócios**.
+
+### 🏢 Minha Principal Especialidade: Organização Empresarial & Processos Comerciais
+O fator primordial pelo qual diretores, empresários e sócios-investidores me chamam para liderar seus projetos é a capacidade de **organização empresarial e reestruturação de processos comerciais**:
+- **Pegar, Otimizar, Organizar e Transformar:** Em qualquer operação onde eu entro, identifico onde estão as falhas de comunicação, gargalos operacionais e perda de vendas. 
+- **Execução Real com Minha Equipe:** Não ficamos na teoria: eu e minha equipe pegamos tudo o que precisa ser reformulado, desenhamos a arquitetura ideal e colocamos no ar sistemas e automações que funcionam de ponta a ponta.
+- **Foco em Resultado Comercial:** Cada linha de código e cada fluxo automatizado tem como objetivo gerar vendas, reter clientes, reduzir custos operacionais e acelerar a resposta ao consumidor.
 
 Atualmente faço parte da equipe da **Workflow Business**, referência capixaba em comunicação inteligente e chatbots de IA, onde sou responsável por integrações críticas de CRM, webhooks, infraestrutura e suporte especializado a clientes corporativos.
 
@@ -120,6 +129,8 @@ O portfólio e as plataformas desenvolvidas reúnem clientes reais, mandatos, fi
 | **Assistências Técnicas de Celular do ES** | Manutenção & Reparo de Dispositivos | **HELPIA** | Atendimento centralizado por WhatsApp, Ordens de Serviço (OS) com fotos e PDF timbrado, além de cobrança automática por Pix. |
 | **Carteira de 400+ Médicos e Clínicas**<br>*(Agências 4Nexus & Viso)* | Saúde, Odontologia & Estética | **MedSystem** | Base médica em fase de homologação com prontuário por voz via **Google Gemini** (SOAP), receita digital **Memed (ICP-Brasil)** e split financeiro. |
 | [**JoySweet**](https://www.joysweet.online/)<br>*(Aluna & Empreendedora UFES)* | Doces & Artesanatos Universitários | **Cartão Fidelidade Digital** | Sistema 100% online e automatizado de fidelização e cashback para aluna da Universidade Federal do Espírito Santo ([joysweet.online](https://www.joysweet.online/) ↗). |
+| **TV Gazeta**<br>*(Rede Gazeta / Afiliada Globo)* | Mídia & Jornalismo | **PubliView360** | Reunião executiva com os diretores da emissora com grande interesse na implantação da plataforma PubliView para monitoramento analítico de suas redes sociais e engajamento. |
+| **Universidade Vila Velha (UVV)** | Ensino Superior & Inovação | **Sistema EAD dos Alunos** | Desenvolvimento de nova plataforma para o EAD dos estudantes da UVV, em processo e diálogo estratégico direto com a diretoria da universidade. |
 | **Contas Corporativas da Workflow** | Chatbots, CRM & IA | **Workflow Business** | Suporte técnico avançado e engenharia de integrações com formulários Meta Ads (Leads), Hotmart, Ubla e sistemas de saúde. |
 
 ---
@@ -218,7 +229,8 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
   - **Gamificação & Mobilização Viral:** Sistema de pontuação, patentes (*Bronze, Prata, Ouro, Embaixador do Mandato*), badges por indicação e catálogo de resgate de recompensas em ledger imutável antifraude.
   - **Atlas do Mandato & Mapeamento Territorial:** Georreferenciamento de apoiadores por bairro, zona e seção eleitoral.
   - **IA de Sentimento & Detector de Crises:** Monitoramento de menções e comentários com classificação semântica e alerta precoce de crises de reputação.
-- **Clientes Reais / Tração Comprovada (Eleições 2026):**
+- **Clientes Reais / Tração Comprovada (Eleições 2026 & Mídia):**
+  - 📺 **TV Gazeta (Rede Gazeta / Afiliada Globo):** Reunião executiva recente realizada com os diretores da emissora, demonstrando forte interesse na implantação da tecnologia PubliView para monitoramento inteligente de suas redes sociais e audiência.
   - 🗳️ **Arnaldinho Borgo** (Prefeito de Vila Velha) — A plataforma atendeu a rede de candidatos alinhados ao seu grupo político.
   - 🗳️ **Lyza Herzog** (Candidata a Deputada Estadual) — 50 santinhos digitais ativos e 20 números de WhatsApp dedicados.
   - 🗳️ **Arnóbio** (Aliado de Lorenzo Pazolini) — Utilizou o módulo de monitoramento de redes e inteligência de dados.
@@ -373,6 +385,10 @@ Além das plataformas SaaS completas, presto serviços especializados de **Desen
 ### 🔬 Iniciação Científica — EMESCAM & FAPES
 - Projeto de pesquisa científica realizado em parceria entre a **EMESCAM** (Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória) e a **FAPES** (Fundação de Amparo à Pesquisa e Inovação do ES).
 - Focado no mapeamento e combate a preconceitos no ambiente das escolas públicas, unindo dados sociais e metodologias reflexivas para promover inclusão ([Ver publicação no LinkedIn](https://lnkd.in/p/dug5TaMp) ↗).
+
+### 🏛️ Sistema EAD — Universidade Vila Velha (UVV)
+- Desenvolvimento de novo sistema sob medida para a plataforma de **Ensino a Distância (EAD)** dos alunos da **Universidade Vila Velha (UVV)**.
+- Projeto em processo de construção e arquitetura, conduzido em diálogo e alinhamento estratégico direto com a diretoria da instituição para otimizar os fluxos acadêmicos dos estudantes.
 
 ### 🎓 Cartão de Fidelidade Digital — JoySweet (UFES)
 - Criação e entrega da plataforma [**JoySweet**](https://www.joysweet.online/), sistema 100% online e automatizado de fidelidade e cashback para aluna e microempreendedora da Universidade Federal do Espírito Santo (UFES), apoiando seu negócio de doces e artesanato universitário ([Acessar joysweet.online](https://www.joysweet.online/) ↗).
