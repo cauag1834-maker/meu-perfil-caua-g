@@ -130,7 +130,7 @@ O portfólio e as plataformas desenvolvidas reúnem clientes reais, mandatos, fi
 | **Carteira de 400+ Médicos e Clínicas**<br>*(Agências 4Nexus & Viso)* | Saúde, Odontologia & Estética | **MedSystem** | Base médica em fase de homologação com prontuário por voz via **Google Gemini** (SOAP), receita digital **Memed (ICP-Brasil)** e split financeiro. |
 | [**JoySweet**](https://www.joysweet.online/)<br>*(Aluna & Empreendedora UFES)* | Doces & Artesanatos Universitários | **Cartão Fidelidade Digital** | Sistema 100% online e automatizado de fidelização e cashback para aluna da Universidade Federal do Espírito Santo ([joysweet.online](https://www.joysweet.online/) ↗). |
 | **TV Gazeta**<br>*(Rede Gazeta / Afiliada Globo)* | Mídia & Jornalismo | **PubliView360** | Reunião executiva com os diretores da emissora com grande interesse na implantação da plataforma PubliView para monitoramento analítico de suas redes sociais e engajamento. |
-| **Universidade Vila Velha (UVV)** | Ensino Superior & Inovação | **Sistema EAD dos Alunos** | Desenvolvimento de nova plataforma para o EAD dos estudantes da UVV, em processo e diálogo estratégico direto com a diretoria da universidade. |
+| **Universidade Vila Velha (UVV)** | Ensino Superior & EAD | **Sistema EAD (Em Produção 🚀)** | Nova plataforma de Ensino a Distância desenvolvida sob medida e já em **produção ativa** para os estudantes da UVV, com fluxos acadêmicos otimizados em alinhamento direto com a diretoria da universidade. |
 | **Contas Corporativas da Workflow** | Chatbots, CRM & IA | **Workflow Business** | Suporte técnico avançado e engenharia de integrações com formulários Meta Ads (Leads), Hotmart, Ubla e sistemas de saúde. |
 
 ---
@@ -386,9 +386,9 @@ Além das plataformas SaaS completas, presto serviços especializados de **Desen
 - Projeto de pesquisa científica realizado em parceria entre a **EMESCAM** (Escola Superior de Ciências da Santa Casa de Misericórdia de Vitória) e a **FAPES** (Fundação de Amparo à Pesquisa e Inovação do ES).
 - Focado no mapeamento e combate a preconceitos no ambiente das escolas públicas, unindo dados sociais e metodologias reflexivas para promover inclusão ([Ver publicação no LinkedIn](https://lnkd.in/p/dug5TaMp) ↗).
 
-### 🏛️ Sistema EAD — Universidade Vila Velha (UVV)
-- Desenvolvimento de novo sistema sob medida para a plataforma de **Ensino a Distância (EAD)** dos alunos da **Universidade Vila Velha (UVV)**.
-- Projeto em processo de construção e arquitetura, conduzido em diálogo e alinhamento estratégico direto com a diretoria da instituição para otimizar os fluxos acadêmicos dos estudantes.
+### 🏛️ Sistema EAD em Produção — Universidade Vila Velha (UVV)
+- Plataforma sob medida para o **Ensino a Distância (EAD)** dos estudantes da **Universidade Vila Velha (UVV)**, já desenvolvida, implantada e em **produção ativa**.
+- Projeto conduzido em diálogo e alinhamento estratégico direto com a diretoria da instituição, otimizando a rotina acadêmica, o engajamento e a entrega educacional aos alunos.
 
 ### 🎓 Cartão de Fidelidade Digital — JoySweet (UFES)
 - Criação e entrega da plataforma [**JoySweet**](https://www.joysweet.online/), sistema 100% online e automatizado de fidelidade e cashback para aluna e microempreendedora da Universidade Federal do Espírito Santo (UFES), apoiando seu negócio de doces e artesanato universitário ([Acessar joysweet.online](https://www.joysweet.online/) ↗).
