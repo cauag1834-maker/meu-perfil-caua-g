@@ -1,0 +1,17 @@
+# Credenciais e Chaves de Acesso Sensíveis
+*cahves*
+*chave*
+*token*
+*.key
+*.env
+*.env.*
+
+# Arquivos brutos de raiz já organizados em /assets
+imagem (*).jpg
+Opa, campeão, prazer. Aqui é o Cauã.txt
+*.pdf
+
+# Arquivos do sistema operacional
+Thumbs.db
+Desktop.ini
+.DS_Store

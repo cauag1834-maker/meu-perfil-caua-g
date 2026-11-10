@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cauã Gustavo | Portfólio de Engenharia de Software & IA</title>
+  <meta name="description" content="Portfólio profissional de Cauã Gustavo: Full Stack Developer, Soluções SaaS Multi-tenant, Automações de IA na Workflow Business e Embaixador Estudantil do Google 2026.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg-dark: #0a0d14;
+      --bg-card: rgba(18, 24, 38, 0.75);
+      --bg-card-hover: rgba(28, 38, 60, 0.85);
+      --border: rgba(255, 255, 255, 0.08);
+      --border-accent: rgba(56, 189, 248, 0.3);
+      --primary: #38bdf8;
+      --primary-glow: rgba(56, 189, 248, 0.25);
+      --secondary: #818cf8;
+      --accent: #10b981;
+      --accent-warm: #f59e0b;
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --text-sub: #64748b;
+      --radius: 16px;
+      --transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--bg-dark);
+      color: var(--text-main);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      line-height: 1.6;
+      overflow-x: hidden;
+      background-image: 
+        radial-gradient(circle at 15% 15%, rgba(56, 189, 248, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 85% 30%, rgba(129, 140, 248, 0.08) 0%, transparent 40%),
+        radial-gradient(circle at 50% 80%, rgba(16, 185, 129, 0.05) 0%, transparent 50%);
+      background-attachment: fixed;
+    }
+
+    /* Container */
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+
+    /* Nav */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(16px);
+      background: rgba(10, 13, 20, 0.8);
+      border-bottom: 1px solid var(--border);
+      padding: 16px 0;
+    }
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo {
+      font-weight: 800;
+      font-size: 1.25rem;
+      background: linear-gradient(135deg, #38bdf8, #818cf8);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .nav-links {
+      display: flex;
+      gap: 24px;
+      align-items: center;
+    }
+    .nav-links a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+      transition: var(--transition);
+    }
+    .nav-links a:hover {
+      color: var(--primary);
+    }
+    .btn-github {
+      background: rgba(255, 255, 255, 0.08);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      padding: 8px 16px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      text-decoration: none;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: var(--transition);
+    }
+    .btn-github:hover {
+      background: rgba(255, 255, 255, 0.15);
+      border-color: var(--primary);
+      transform: translateY(-2px);
+    }
+
+    /* Hero Section */
+    .hero {
+      padding: 80px 0 60px;
+    }
+    .hero-grid {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 48px;
+      align-items: center;
+    }
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(56, 189, 248, 0.1);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      color: var(--primary);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+    .badge-pill span.dot {
+      width: 8px;
+      height: 8px;
+      background: var(--primary);
+      border-radius: 50%;
+      box-shadow: 0 0 10px var(--primary);
+      animation: pulse 2s infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .hero h1 {
+      font-size: 3.2rem;
+      font-weight: 800;
+      line-height: 1.15;
+      margin-bottom: 20px;
+      letter-spacing: -0.02em;
+    }
+    .hero h1 .highlight {
+      background: linear-gradient(135deg, #38bdf8 0%, #818cf8 50%, #c084fc 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .hero p.lead {
+      color: var(--text-muted);
+      font-size: 1.15rem;
+      margin-bottom: 28px;
+      max-width: 580px;
+    }
+    .hero-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 32px;
+    }
+    .hero-tag {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 4px 12px;
+      border-radius: 8px;
+      font-size: 0.8rem;
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .hero-cta {
+      display: flex;
+      gap: 16px;
+      align-items: center;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #0284c7, #38bdf8);
+      color: #031525;
+      padding: 12px 28px;
+      border-radius: 12px;
+      font-weight: 700;
+      text-decoration: none;
+      transition: var(--transition);
+      box-shadow: 0 10px 25px -5px rgba(56, 189, 248, 0.4);
+    }
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 15px 30px -5px rgba(56, 189, 248, 0.6);
+    }
+    .btn-secondary {
+      background: rgba(255, 255, 255, 0.05);
+      color: var(--text-main);
+      border: 1px solid var(--border);
+      padding: 12px 24px;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: var(--transition);
+    }
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: rgba(255, 255, 255, 0.2);
+    }
+
+    /* Hero Card / Visual */
+    .hero-visual {
+      position: relative;
+    }
+    .profile-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      backdrop-filter: blur(20px);
+      box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.5);
+      position: relative;
+      overflow: hidden;
+    }
+    .profile-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, #38bdf8, #818cf8, #34d399);
+    }
+    .profile-img-wrap {
+      width: 100%;
+      height: 280px;
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 20px;
+      border: 1px solid var(--border);
+      position: relative;
+    }
+    .profile-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition);
+    }
+    .profile-card:hover .profile-img-wrap img {
+      transform: scale(1.03);
+    }
+    .profile-meta h3 {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 4px;
+    }
+    .profile-meta p {
+      color: var(--primary);
+      font-size: 0.9rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+    .profile-status {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+
+    /* Stats Bar */
+    .stats-bar {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin: 40px 0 80px;
+    }
+    .stat-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 20px;
+      text-align: center;
+      transition: var(--transition);
+    }
+    .stat-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-3px);
+    }
+    .stat-number {
+      font-size: 2.2rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #38bdf8, #34d399);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+    }
+    .stat-label {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Section Styles */
+    section {
+      padding: 60px 0;
+    }
+    .section-head {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    .section-subtitle {
+      color: var(--primary);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      margin-bottom: 8px;
+    }
+    .section-title {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+    }
+    .section-desc {
+      color: var(--text-muted);
+      max-width: 650px;
+      margin: 12px auto 0;
+      font-size: 1rem;
+    }
+
+    /* Workflow Highlight Box */
+    .workflow-spotlight {
+      background: linear-gradient(135deg, rgba(14, 165, 233, 0.08) 0%, rgba(99, 102, 241, 0.06) 100%);
+      border: 1px solid rgba(56, 189, 248, 0.25);
+      border-radius: var(--radius);
+      padding: 40px;
+      margin-bottom: 80px;
+      position: relative;
+      overflow: hidden;
+    }
+    .workflow-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 36px;
+      align-items: center;
+    }
+    .workflow-content h3 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .workflow-tag {
+      background: #0284c7;
+      color: white;
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-weight: 700;
+    }
+    .workflow-list {
+      list-style: none;
+      margin: 20px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .workflow-list li {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
+      font-size: 0.95rem;
+      color: #cbd5e1;
+    }
+    .workflow-list li .icon {
+      color: var(--primary);
+      font-weight: bold;
+    }
+    .workflow-preview-wrap {
+      border-radius: 12px;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      box-shadow: 0 15px 35px -5px rgba(0, 0, 0, 0.6);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .workflow-preview-wrap:hover {
+      transform: scale(1.02);
+      border-color: var(--primary);
+    }
+    .workflow-preview-wrap img {
+      width: 100%;
+      display: block;
+    }
+
+    /* Filter Tabs */
+    .filter-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+    }
+    .tab-btn {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 10px 20px;
+      border-radius: 999px;
+      cursor: pointer;
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: var(--transition);
+    }
+    .tab-btn.active, .tab-btn:hover {
+      background: rgba(56, 189, 248, 0.15);
+      border-color: var(--primary);
+      color: var(--primary);
+    }
+
+    /* Projects Grid */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    .project-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+      backdrop-filter: blur(10px);
+    }
+    .project-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-6px);
+      box-shadow: 0 20px 30px -10px rgba(0, 0, 0, 0.6);
+    }
+    .card-thumb {
+      height: 190px;
+      position: relative;
+      overflow: hidden;
+      background: #0f172a;
+    }
+    .card-thumb img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: var(--transition);
+    }
+    .project-card:hover .card-thumb img {
+      transform: scale(1.05);
+    }
+    .card-category {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: rgba(10, 13, 20, 0.85);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: var(--primary);
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+    .card-body {
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      flex-grow: 1;
+    }
+    .card-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .card-desc {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+    .client-badge-box {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px dashed var(--border);
+      padding: 10px 14px;
+      border-radius: 8px;
+      margin-bottom: 16px;
+      font-size: 0.8rem;
+    }
+    .client-badge-box strong {
+      color: #e2e8f0;
+      display: block;
+      margin-bottom: 2px;
+    }
+    .client-badge-box span {
+      color: #38bdf8;
+    }
+    .card-techs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-bottom: 20px;
+    }
+    .tech-pill {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      color: #cbd5e1;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 3px 8px;
+      border-radius: 6px;
+    }
+    .card-links {
+      display: flex;
+      gap: 12px;
+      border-top: 1px solid var(--border);
+      padding-top: 16px;
+    }
+    .btn-link-action {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--primary);
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: var(--transition);
+    }
+    .btn-link-action:hover {
+      color: #7dd3fc;
+      transform: translateX(3px);
+    }
+
+    /* Recognition Cards */
+    .recognitions-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 28px;
+    }
+    .rec-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 28px;
+      display: flex;
+      gap: 24px;
+      transition: var(--transition);
+    }
+    .rec-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-4px);
+    }
+    .rec-icon {
+      font-size: 2.2rem;
+      flex-shrink: 0;
+    }
+    .rec-info h4 {
+      font-size: 1.15rem;
+      font-weight: 700;
+      margin-bottom: 6px;
+    }
+    .rec-info p {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    .rec-tag {
+      display: inline-block;
+      margin-top: 10px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #34d399;
+      background: rgba(52, 211, 153, 0.1);
+      padding: 2px 8px;
+      border-radius: 6px;
+    }
+
+    /* Partners / Supporters */
+    .partners-box {
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 32px;
+      text-align: center;
+    }
+    .partners-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 24px;
+    }
+    .partner-item {
+      background: rgba(255, 255, 255, 0.03);
+      padding: 16px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+    }
+    .partner-name {
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--text-main);
+    }
+    .partner-role {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      margin-top: 4px;
+    }
+
+    /* Lightbox Modal */
+    .lightbox-modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      backdrop-filter: blur(10px);
+      z-index: 1000;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .lightbox-modal.active {
+      display: flex;
+    }
+    .lightbox-content {
+      max-width: 900px;
+      max-height: 85vh;
+      border-radius: 12px;
+      overflow: hidden;
+      position: relative;
+    }
+    .lightbox-content img {
+      width: 100%;
+      height: auto;
+      max-height: 85vh;
+      object-fit: contain;
+      display: block;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      color: white;
+      font-size: 2rem;
+      font-weight: bold;
+      cursor: pointer;
+      background: rgba(0,0,0,0.5);
+      width: 44px;
+      height: 44px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+      transition: var(--transition);
+    }
+    .lightbox-close:hover {
+      background: rgba(255,255,255,0.2);
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 40px 0;
+      text-align: center;
+      color: var(--text-sub);
+      font-size: 0.85rem;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .projects-grid { grid-template-columns: repeat(2, 1fr); }
+      .hero-grid { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2.6rem; }
+      .stats-bar { grid-template-columns: repeat(2, 1fr); }
+      .workflow-grid { grid-template-columns: 1fr; }
+      .recognitions-grid { grid-template-columns: 1fr; }
+      .partners-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 640px) {
+      .projects-grid { grid-template-columns: 1fr; }
+      .stats-bar { grid-template-columns: 1fr; }
+      .hero h1 { font-size: 2.1rem; }
+      .hero-cta { flex-direction: column; align-items: stretch; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="container nav-inner">
+      <a href="#" class="logo">
+        <span>⚡</span> Cauã Gustavo
+      </a>
+      <div class="nav-links">
+        <a href="#sobre">Sobre</a>
+        <a href="#workflow">Workflow Business</a>
+        <a href="#projetos">Projetos & SaaS</a>
+        <a href="#reconhecimentos">Conquistas</a>
+        <a href="#apoiadores">Parceiros</a>
+        <a href="https://github.com/cauag1834-maker" target="_blank" class="btn-github">
+          <svg height="16" width="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="sobre">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <div class="badge-pill">
+            <span class="dot"></span> Disponível para novos projetos & parcerias
+          </div>
+          <h1>Desenvolvendo o Futuro com <span class="highlight">Software & Inteligência Artificial</span></h1>
+          <p class="lead">
+            Desenvolvedor Full Stack de 21 anos, residente no Espírito Santo. Atuando na <strong>Workflow Business</strong> em integrações e automações com IA, e co-criador de um ecossistema com <strong>6 plataformas digitais SaaS</strong> de alta escala.
+          </p>
+
+          <div class="hero-tags">
+            <span class="hero-tag">Next.js 14</span>
+            <span class="hero-tag">React 18</span>
+            <span class="hero-tag">TypeScript</span>
+            <span class="hero-tag">Supabase RLS</span>
+            <span class="hero-tag">Google Gemini</span>
+            <span class="hero-tag">WAHA Docker</span>
+            <span class="hero-tag">Meta Ads API</span>
+            <span class="hero-tag">PostgreSQL</span>
+          </div>
+
+          <div class="hero-cta">
+            <a href="#projetos" class="btn-primary">Ver Portfólio de Projetos</a>
+            <a href="#workflow" class="btn-secondary">Conhecer Atuação na Workflow</a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="profile-card">
+            <div class="profile-img-wrap" onclick="openLightbox('./assets/caua-workshop.jpg')">
+              <img src="./assets/caua-workshop.jpg" alt="Cauã Gustavo da Silva Bernardino">
+            </div>
+            <div class="profile-meta">
+              <h3>Cauã Gustavo da Silva</h3>
+              <p>Full Stack & AI Integrations Specialist</p>
+              <div class="profile-status">
+                <span>📍 Espírito Santo, BR</span> • 
+                <span>🎓 Embaixador Google 2026</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- METRICS BAR -->
+      <div class="stats-bar">
+        <div class="stat-card">
+          <div class="stat-number">6</div>
+          <div class="stat-label">Plataformas SaaS Criadas</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">400+</div>
+          <div class="stat-label">Médicos na Carteira (MedSystem)</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">40k+</div>
+          <div class="stat-label">Views/mês no Podcast Parceiro</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">8.000+</div>
+          <div class="stat-label">Membros na Comunidade WhatsApp</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORKFLOW BUSINESS SECTION -->
+  <section id="workflow">
+    <div class="container">
+      <div class="workflow-spotlight">
+        <div class="workflow-grid">
+          <div class="workflow-content">
+            <span class="workflow-tag">EMPRESA ATUAL</span>
+            <h3>Workflow Business</h3>
+            <p style="color: #94a3b8; margin-bottom: 16px;">
+              Empresa capixaba pioneira em comunicação inteligente, chatbots automatizados e agentes de IA integrados à rotina de negócios.
+            </p>
+            <ul class="workflow-list">
+              <li>
+                <span class="icon">✓</span>
+                <div>
+                  <strong>Suporte Técnico de Alto Nível:</strong> Atendimento especializado e resolução de incidentes críticos para clientes corporativos.
+                </div>
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <div>
+                  <strong>Integração Meta Ads ➔ CRM:</strong> Webhooks que capturam formulários do Meta Leads e iniciam atendimento automático no WhatsApp em tempo real.
+                </div>
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <div>
+                  <strong>Checkouts & Plataformas:</strong> Integrações completas com Hotmart e Ubla para recuperação de carrinhos e liberação de acessos.
+                </div>
+              </li>
+              <li>
+                <span class="icon">✓</span>
+                <div>
+                  <strong>Servidor Dedicado de WhatsApp:</strong> Cluster com instâncias Docker isoladas (WAHA HTTP) hospedadas em VPS para envio/recebimento seguro.
+                </div>
+              </li>
+            </ul>
+            <a href="https://space.workflow.app.br" target="_blank" class="btn-primary" style="display: inline-block; font-size: 0.9rem; padding: 10px 20px;">
+              Acessar Workflow App ↗
+            </a>
+          </div>
+
+          <div class="workflow-preview-wrap" onclick="openLightbox('./assets/workflow-app-preview.jpg')">
+            <img src="./assets/workflow-app-preview.jpg" alt="Painel do Workflow App">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS & SAAS SECTION -->
+  <section id="projetos">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-subtitle">DOCUMENTAÇÃO MESTRA 2026 · PROGRAMA SUPERNOVA SEBRAE</div>
+        <h2 class="section-title">Portfólio de Soluções Digitais</h2>
+        <p class="section-desc">
+          Ecossistema de 6 plataformas SaaS multi-tenant desenvolvidas sobre uma base técnica consolidada de PostgreSQL com RLS, automação e inteligência artificial aplicada.
+        </p>
+      </div>
+
+      <!-- FILTER TABS -->
+      <div class="filter-tabs">
+        <button class="tab-btn active" onclick="filterProjects('all', this)">Todos os Projetos</button>
+        <button class="tab-btn" onclick="filterProjects('saas', this)">SaaS & Negócios</button>
+        <button class="tab-btn" onclick="filterProjects('ia', this)">Inteligência Artificial</button>
+        <button class="tab-btn" onclick="filterProjects('politica', this)">Gestão Pública & Política</button>
+      </div>
+
+      <!-- GRID OF PROJECTS -->
+      <div class="projects-grid">
+
+        <!-- 1. WORKUT -->
+        <div class="project-card" data-category="saas">
+          <div class="card-thumb" onclick="openLightbox('./assets/workut-preview.jpg')">
+            <img src="./assets/workut-preview.jpg" alt="Workut Preview">
+            <span class="card-category">BELEZA & ESTÉTICA</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Workut</h3>
+            <p class="card-desc">
+              SaaS completo de gestão para barbearias, salões e estética: agenda online sem conflitos, PDV, frente de caixa cego, comissões automáticas e Clube VIP de assinaturas recorrentes com apps na App Store e Google Play.
+            </p>
+            <div class="client-badge-box">
+              <strong>Clientes Reais em Produção:</strong>
+              <span>Dom Cabral Barbearia • Don Concept Lounge</span>
+              <div style="margin-top: 4px; color: #a7f3d0; font-size: 0.75rem;">
+                ✈️ Expansão Internacional: Aura Cosméticos (Venezuela)
+              </div>
+            </div>
+            <div class="card-techs">
+              <span class="tech-pill">Next.js 14</span>
+              <span class="tech-pill">Supabase RLS</span>
+              <span class="tech-pill">WAHA Docker</span>
+              <span class="tech-pill">Stripe/InfinitePay</span>
+            </div>
+            <div class="card-links">
+              <a href="https://workut.cc" target="_blank" class="btn-link-action">Visitar Site (workut.cc) ↗</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2. VETIO 2.0 -->
+        <div class="project-card" data-category="saas ia">
+          <div class="card-thumb">
+            <div style="background: linear-gradient(135deg, #059669, #10b981); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+              🐾
+            </div>
+            <span class="card-category">MERCADO PET & SAÚDE</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Vetio 2.0</h3>
+            <p class="card-desc">
+              Ecossistema omnichannel para clínicas veterinárias e tutores. Une prontuário clínico, vacinas com controle FEFO por lote, IA Doctor para triagem assistida e a inovadora <strong>Smart Tag QR/NFC</strong> para identificação do animal e resgate com GPS consentido.
+            </p>
+            <div class="client-badge-box">
+              <strong>Cliente Referência:</strong>
+              <span>FF Pet Center (Vila Velha/ES)</span>
+            </div>
+            <div class="card-techs">
+              <span class="tech-pill">Next.js 14</span>
+              <span class="tech-pill">Smart Tag NFC/QR</span>
+              <span class="tech-pill">IA Doctor</span>
+              <span class="tech-pill">PostgreSQL</span>
+            </div>
+            <div class="card-links">
+              <span class="btn-link-action" style="color: #34d399;">Operação Ativa 🟢</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3. PUBLIVIEW360 & PUBLIONLINE -->
+        <div class="project-card" data-category="politica ia">
+          <div class="card-thumb" onclick="openLightbox('./assets/publiview-preview.jpg')">
+            <img src="./assets/publiview-preview.jpg" alt="PubliView Preview">
+            <span class="card-category">GESTÃO POLÍTICA 360</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">PubliView360 + PubliOnline</h3>
+            <p class="card-desc">
+              Plataforma 360 de governança eleitoral e mobilização: CRM político com Grafo de Influência, gamificação viral (pontos, níveis e badges), Atlas do Mandato georreferenciado e Santinho Digital Interativo com QR Code e chave PIX oficial.
+            </p>
+            <div class="client-badge-box">
+              <strong>Atuação Eleições 2026:</strong>
+              <span>Arnaldinho Borgo • Lyza Herzog • Arnóbio</span>
+            </div>
+            <div class="card-techs">
+              <span class="tech-pill">Gamificação Viral</span>
+              <span class="tech-pill">Atlas Geográfico</span>
+              <span class="tech-pill">IA Sentimento</span>
+              <span class="tech-pill">Roteador /go/:slug</span>
+            </div>
+            <div class="card-links">
+              <span class="btn-link-action" style="color: #38bdf8;">Comprovado em Eleições 🗳️</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 4. HELPIA -->
+        <div class="project-card" data-category="saas ia">
+          <div class="card-thumb">
+            <div style="background: linear-gradient(135deg, #1e40af, #3b82f6); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+              ⚡
+            </div>
+            <span class="card-category">ATENDIMENTO & ERP</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">HELPIA</h3>
+            <p class="card-desc">
+              WhatsApp multiatendimento em equipe conectado diretamente ao CRM Kanban, módulo ERP de Ordens de Serviço com fotos e laudos PDF, cobranças automáticas de títulos a vencer e Agentes de IA configuráveis com memória de contexto.
+            </p>
+            <div class="client-badge-box">
+              <strong>Segmento Validado:</strong>
+              <span>Assistências técnicas de celular e empresas de serviços do ES</span>
+            </div>
+            <div class="card-techs">
+              <span class="tech-pill">React 18</span>
+              <span class="tech-pill">TypeScript</span>
+              <span class="tech-pill">Deno Edge Functions</span>
+              <span class="tech-pill">ERP & OS</span>
+            </div>
+            <div class="card-links">
+              <span class="btn-link-action">Em Operação 🚀</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 5. MEDSYSTEM -->
+        <div class="project-card" data-category="saas ia">
+          <div class="card-thumb">
+            <div style="background: linear-gradient(135deg, #6b21a8, #a855f7); width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 3rem;">
+              🩺
+            </div>
+            <span class="card-category">SAÚDE & IA CLÍNICA</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">MedSystem</h3>
+            <p class="card-desc">
+              Prontuário com IA por voz (Google Gemini transforma 30s de fala no padrão médico SOAP com CID-10), Prescrição Digital Memed com assinatura ICP-Brasil, cobrança com Split automático de repasse médico e painel de chamada em TV.
+            </p>
+            <div class="client-badge-box">
+              <strong>Carteira de Distribuição:</strong>
+              <span>Agências 4Nexus & Viso (Mais de 400 médicos parceiros)</span>
+            </div>
+            <div class="card-techs">
+              <span class="tech-pill">Google Gemini SOAP</span>
+              <span class="tech-pill">Memed Sinapse</span>
+              <span class="tech-pill">Split de Pagamentos</span>
+              <span class="tech-pill">Painel TV</span>
+            </div>
+            <div class="card-links">
+              <span class="btn-link-action" style="color: #c084fc;">Fase de Homologação 🏥</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6. PUBLICIDADE ES -->
+        <div class="project-card" data-category="saas">
+          <div class="card-thumb" onclick="openLightbox('./assets/publicidade-es-screen.jpg')">
+            <img src="./assets/publicidade-es-screen.jpg" alt="Publicidade ES Preview">
+            <span class="card-category">ECOSSISTEMA CAPIXABA</span>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Publicidade ES</h3>
+            <p class="card-desc">
+              Portal independente e hub criativo do Espírito Santo nos 78 municípios. Oferece mural de vagas sem taxas, mapa 3D/2D do ES, ferramentas no browser (Pascal 3D, Arcada 2D, ES CUT Studio com legendas IA via WebAssembly) e o podcast Manda o Papo.
+            </p>
+            <div class="client-badge-box">
+              <strong>Audiência & Sócios:</strong>
+              <span>Guilherme Borgo, Mila Soares, Quiaper Junio e Augusto Sodré</span>
+              <div style="margin-top: 4px; color: #fde047; font-size: 0.75rem;">
+                🏆 Projeto com Prêmio Internacional de Publicidade
+              </div>
+            </div>
+            <div class="card-techs">
+              <span class="tech-pill">Pascal 3D (Three.js)</span>
+              <span class="tech-pill">ES CUT (WASM)</span>
+              <span class="tech-pill">MapLibre GL</span>
+              <span class="tech-pill">Podcast Manda o Papo</span>
+            </div>
+            <div class="card-links">
+              <a href="https://publicidadees.com.br" target="_blank" class="btn-link-action">Acessar Portal ↗</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- RECOGNITIONS & SOCIAL IMPACT -->
+  <section id="reconhecimentos">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-subtitle">CONQUISTAS & PESQUISA CIENTÍFICA</div>
+        <h2 class="section-title">Reconhecimentos & Impacto Acadêmico</h2>
+      </div>
+
+      <div class="recognitions-grid">
+        <!-- Google Ambassador -->
+        <div class="rec-card" onclick="openLightbox('./assets/google-ambassador.jpg')" style="cursor: pointer;">
+          <div class="rec-icon">🎓</div>
+          <div class="rec-info">
+            <h4>Embaixador Estudantil do Google 2026</h4>
+            <p>
+              Selecionado pelo programa nacional <strong>Embaixadores Estudantis do Google</strong> promovido pela Amplifica e Google for Education, capacitando estudantes e profissionais em <strong>Google Gemini</strong> e ferramentas modernas de IA generativa.
+            </p>
+            <span class="rec-tag">Clique para ver o certificado oficial ↗</span>
+          </div>
+        </div>
+
+        <!-- FAPES Iniciação Científica -->
+        <div class="rec-card">
+          <div class="rec-icon">🔬</div>
+          <div class="rec-info">
+            <h4>Iniciação Científica — FAPES</h4>
+            <p>
+              Projeto de pesquisa científica financiado pela Fundação de Amparo à Pesquisa e Inovação do Espírito Santo (FAPES), voltado à análise de dados e enfrentamento a discriminações e preconceitos no ambiente escolar.
+            </p>
+            <span class="rec-tag" style="color: #60a5fa; background: rgba(96, 165, 250, 0.1);">Pesquisa Acadêmica & Social</span>
+          </div>
+        </div>
+
+        <!-- UFES Cartão Fidelidade -->
+        <div class="rec-card">
+          <div class="rec-icon">💡</div>
+          <div class="rec-info">
+            <h4>Sistema de Fidelidade Digital — UFES</h4>
+            <p>
+              Desenvolvimento de um sistema de fidelização e cashback 100% digital e automático para aluna e microempreendedora da Universidade Federal do Espírito Santo, digitalizando a operação de doces e artesanato.
+            </p>
+            <span class="rec-tag" style="color: #f59e0b; background: rgba(245, 158, 11, 0.1);">Apoio ao Empreendedorismo Local</span>
+          </div>
+        </div>
+
+        <!-- IAP Inteligência Artificial na Prática -->
+        <div class="rec-card" onclick="openLightbox('./assets/iap-event.jpg')" style="cursor: pointer;">
+          <div class="rec-icon">🧠</div>
+          <div class="rec-info">
+            <h4>Imersão Técnica — IA na Prática (IAP)</h4>
+            <p>
+              Treinamento intensivo presencial sobre engenharia de contexto, LLMs aplicadas à rotina de negócios e orquestração de agentes autônomos para aumento de produtividade empresarial.
+            </p>
+            <span class="rec-tag" style="color: #c084fc; background: rgba(192, 132, 252, 0.1);">Certificação & Prática Intensiva</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPPORTERS & INVESTORS -->
+  <section id="apoiadores">
+    <div class="container">
+      <div class="partners-box">
+        <div class="section-subtitle">REDE ESTRATÉGICA</div>
+        <h3 style="font-size: 1.8rem; font-weight: 800; margin-bottom: 8px;">Sócios, Investidores & Apoiadores</h3>
+        <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto;">
+          Parceiros estratégicos que viabilizam a criação, o aporte de capital e a distribuição comercial dos produtos digitais no Brasil e no exterior.
+        </p>
+
+        <div class="partners-grid">
+          <div class="partner-item">
+            <div class="partner-name">Guilherme Borgo & Mila Soares</div>
+            <div class="partner-role">Sócios-Investidores Publicidade ES & Hosts do Podcast Manda o Papo</div>
+          </div>
+          <div class="partner-item">
+            <div class="partner-name">Quiaper Junio & Augusto Sodré</div>
+            <div class="partner-role">Sócios-Investidores com participação direta na comercialização</div>
+          </div>
+          <div class="partner-item">
+            <div class="partner-name">Agências 4Nexus & Viso Publicidade</div>
+            <div class="partner-role">Carteira formada com mais de 400 médicos parceiros</div>
+          </div>
+          <div class="partner-item">
+            <div class="partner-name">Aura Cosméticos / Aura Brasil</div>
+            <div class="partner-role">Parceiro internacional de distribuição do Workut na Venezuela</div>
+          </div>
+          <div class="partner-item">
+            <div class="partner-name">Programa Supernova · Sebrae ES</div>
+            <div class="partner-role">Validação metodológica e mentoria de modelo Canvas</div>
+          </div>
+          <div class="partner-item">
+            <div class="partner-name">Workflow Business</div>
+            <div class="partner-role">Empresa de atuação profissional em inteligência artificial e chatbots</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL -->
+  <div class="lightbox-modal" id="lightbox" onclick="closeLightbox()">
+    <div class="lightbox-close">&times;</div>
+    <div class="lightbox-content" onclick="event.stopPropagation()">
+      <img id="lightbox-img" src="" alt="Imagem ampliada">
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <p style="margin-bottom: 8px;">
+        <strong>Cauã Gustavo da Silva Bernardino</strong> • Full Stack Developer & Especialista em Automações de IA
+      </p>
+      <p style="color: var(--text-sub); font-size: 0.8rem;">
+        Espírito Santo, Brasil • Repositório Oficial: <a href="https://github.com/cauag1834-maker/meu-perfil-caua-g" target="_blank" style="color: var(--primary);">cauag1834-maker/meu-perfil-caua-g</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    function filterProjects(category, btn) {
+      const cards = document.querySelectorAll('.project-card');
+      const buttons = document.querySelectorAll('.tab-btn');
+
+      buttons.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+
+      cards.forEach(card => {
+        if (category === 'all') {
+          card.style.display = 'flex';
+        } else {
+          const cats = card.getAttribute('data-category');
+          if (cats && cats.includes(category)) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        }
+      });
+    }
+
+    function openLightbox(src) {
+      const modal = document.getElementById('lightbox');
+      const img = document.getElementById('lightbox-img');
+      img.src = src;
+      modal.classList.add('active');
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightbox');
+      modal.classList.remove('active');
+    }
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+    });
+  </script>
+</body>
+</html>
