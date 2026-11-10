@@ -22,6 +22,7 @@
   <a href="https://business.publiview360.com.br/" target="_blank"><img src="https://img.shields.io/badge/PubliView_Business-business.publiview360.com.br-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="PubliView Business" /></a>
   <a href="https://publicidadees.com.br/" target="_blank"><img src="https://img.shields.io/badge/Publicidade_ES-publicidadees.com.br-FE2C55?style=flat-square&logo=googlechrome&logoColor=white" alt="Publicidade ES" /></a>
   <a href="https://www.joysweet.online/" target="_blank"><img src="https://img.shields.io/badge/JoySweet_Fidelidade-joysweet.online-EC4899?style=flat-square&logo=googlechrome&logoColor=white" alt="JoySweet" /></a>
+  <a href="https://lovememory.space/" target="_blank"><img src="https://img.shields.io/badge/LoveMemory-lovememory.space-FF2E93?style=flat-square&logo=googlechrome&logoColor=white" alt="LoveMemory" /></a>
 </p>
 
 <!-- STATUS BADGES -->
@@ -50,13 +51,15 @@
 - [👋 Sobre Mim](#-sobre-mim)
 - [🌟 Clientes & Parceiros de Referência](#-clientes--parceiros-de-referência)
 - [🏢 Atuação Profissional: Workflow Business](#-atuação-profissional-workflow-business)
-- [🚀 As 6 Plataformas Digitais (Documentação Mestra)](#-as-6-plataformas-digitais-documentação-mestra)
+- [🚀 As 6 Plataformas Digitais (Documentação Mestra) & Projetos](#-as-6-plataformas-digitais-documentação-mestra)
   - [1. Workut — Gestão para Beleza & Bem-Estar](#1--workut--gestão-para-beleza--bem-estar)
   - [2. Vetio 2.0 — Ecossistema Pet & Smart Tags](#2--vetio-20--ecossistema-pet--smart-tags)
   - [3. PubliView360 + PubliOnline — Gestão Política 360](#3--publiview360--publionline--gestão-política-360)
   - [4. HELPIA — Atendimento Inteligente, CRM & ERP](#4--helpia--atendimento-inteligente-crm--erp)
   - [5. MedSystem — Saúde, Prontuário IA & Prescrição Memed](#5--medsystem--saúde-prontuário-ia--prescrição-memed)
   - [6. Publicidade ES — Ecossistema Capixaba & Podcast Manda o Papo](#6--publicidade-es--ecossistema-capixaba--podcast-manda-o-papo)
+  - [7. LoveMemory — Páginas de Memórias & Casais Românticos](#7--lovememory--páginas-de-memórias--casais-românticos)
+- [🎯 Criação de Landing Pages de Alta Conversão](#-criação-de-landing-pages-de-alta-conversão)
 - [🏆 Reconhecimentos, Pesquisa & Impacto](#-reconhecimentos-pesquisa--impacto)
 - [📈 Métricas & Tração do Portfólio](#-métricas--tração-do-portfólio)
 - [🛠️ Stack Tecnológica & Infraestrutura](#-stack-tecnológica--infraestrutura)
@@ -75,6 +78,10 @@ Atualmente faço parte da equipe da **Workflow Business**, referência capixaba 
 Além do desenvolvimento de software, possuo conhecimento prático e vivência em **infraestrutura Cloud e administração de servidores VPS (Hostinger)**. Gerencio pessoalmente uma VPS Linux dedicada onde hospedo e mantenho o serviço de **WhatsApp via API não oficial** em containers Docker. Esse servidor atua como um *Gateway de Mensageria Central*, fornecendo envio/recebimento de mensagens em tempo real, webhooks bidirecionais e automações avançadas para todas as plataformas do meu ecossistema (Workut, HELPIA, PubliView360, Vetio, JoySweet e integrações de checkout da Hubla e Hotmart).
 
 Em paralelo, sou autor técnico e co-fundador de **6 plataformas SaaS independentes** consolidadas no **Manual Técnico e de Negócios 2026 (Programa Supernova · Sebrae)**, com aplicações ativas em campanhas eleitorais, redes de estética, clínicas médicas veterinárias e no mercado criativo capixaba.
+
+Também atuo ativamente na **criação de Landing Pages de Alta Conversão**, desenvolvendo páginas de vendas, páginas de captura e experiências digitais focadas em tráfego pago (Meta Ads e Google Ads), lançamentos de infoprodutos e captação de leads com design premium (Dark Glassmorphism, Neon UI), performance ultrarrápida (Core Web Vitals) e integração direta com formulários e robôs de WhatsApp.
+
+Além disso, desenvolvo projetos B2C interativos como o [**LoveMemory**](https://lovememory.space/), uma plataforma romântica para casais eternizarem momentos especiais com player de música estilo Spotify, contadores em tempo real e QR Codes exclusivos para presentes físicos.
 
 Também tenho a honra de ter sido selecionado como **Embaixador Estudantil do Google 2026** (Google Student Ambassador pelo programa Amplifica / Google for Education / Gemini) e autor de pesquisa de Iniciação Científica financiada pela **FAPES**.
 
@@ -288,6 +295,69 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
 
 ---
 
+### 7. 💖 LoveMemory — Páginas de Memórias & Casais Românticos
+> *Plataforma web interativa para casais eternizarem suas histórias de amor em páginas personalizadas com trilha sonora, fotos, contador de tempo de relacionamento e QR Code.*
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="assets/lovememory-hero.jpg" alt="LoveMemory Landing Page" width="100%" style="border-radius: 10px;" />
+        <br /><em>Página inicial com preview interativo do smartphone, player musical e contador</em>
+      </td>
+      <td width="50%" align="center">
+        <img src="assets/lovememory-builder.jpg" alt="LoveMemory Construtor de Templates" width="100%" style="border-radius: 10px;" />
+        <br /><em>Wizard de 10 passos: seleção de templates (Spotify Dark, Spotify Roxo, Rosa Romântico) e preview</em>
+      </td>
+    </tr>
+  </table>
+</div>
+
+- **Proposta de Valor:** *"Não dê um presente tradicional. Dê algo que faz o coração bater mais forte."* O LoveMemory transforma declarações e memórias de casais em uma experiência digital emocionante, moderna e eterna, acessível via smartphone e gravável em presentes físicos através de QR Code.
+- **Funcionalidades e Recursos:**
+  - **Player Musical Estilo Spotify:** Player integrado com visual de streaming, capa personalizada do casal, barra de progresso e trilha sonora romântica de fundo.
+  - **Namorômetro em Tempo Real:** Contador dinâmico e contínuo que calcula exatamente há quantos anos, meses, dias, horas e minutos o casal está junto.
+  - **Wizard de Criação em 10 Etapas:** Construtor intuitivo passo a passo (*1. Página, 2. Estilo, 3. Título da Memória, 4. Data Inicial, 5. Mensagem, 6. Fotos, 7. Estilo das Fotos, 8. Emoji, 9. Música, 10. QR Code*).
+  - **Biblioteca de Templates:** Diversos temas visuais incluindo *Spotify Escuro*, *Spotify Roxo*, *Rosa Romântico*, *Estrelado* e layouts minimalistas.
+  - **Mural de Fotos & Mensagens Personalizadas:** Carrossel de momentos marcantes do casal com cartas e declarações afetivas.
+  - **Geração de QR Code Exclusivo:** Criação instantânea de QR Code para impressão em chaveiros, porta-retratos, cartões, alianças ou quadros decorativos.
+- **Stack Técnica:** React 18, TypeScript, Tailwind CSS, Lucide Icons, Web Audio API, QR Code Vectorial, Vercel Edge.
+- **Site Oficial:** [lovememory.space](https://lovememory.space/) ↗
+
+---
+
+## 🎯 Criação de Landing Pages de Alta Conversão
+
+Além das plataformas SaaS completas, presto serviços especializados de **Desenvolvimento & Design de Landing Pages de Alta Conversão**, voltadas para empresas, infoprodutos, consultorias e campanhas de tráfego pago:
+
+<div align="center">
+  <table>
+    <tr>
+      <td width="25%" align="center">
+        <strong>⚡ Performance Máxima</strong><br />
+        <sub>Carregamento instantâneo (< 1.5s), Core Web Vitals nota 95+ no Google PageSpeed, código limpo e imagens otimizadas em WebP.</sub>
+      </td>
+      <td width="25%" align="center">
+        <strong>🎨 Design Moderno & Premium</strong><br />
+        <sub>Estética contemporânea em Dark Glassmorphism, Neon Glow, microinterações fluidas e tipografia alinhada à autoridade da marca.</sub>
+      </td>
+      <td width="25%" align="center">
+        <strong>📲 Integração Meta Leads & WhatsApp</strong><br />
+        <sub>Webhooks que capturam o formulário ou botão de CTA e iniciam o atendimento no WhatsApp em menos de 3 segundos, sem perder leads.</sub>
+      </td>
+      <td width="25%" align="center">
+        <strong>💳 Checkouts de Alta Conversão</strong><br />
+        <sub>Conexão nativa com Hotmart, Hubla, Stripe e gateways de pagamento com Pix dinâmico e recuperação de carrinho abandonado.</sub>
+      </td>
+    </tr>
+  </table>
+</div>
+
+- **Metodologia de Conversão:** Estruturação visual focada no funil AIDA (*Atenção, Interesse, Desejo e Ação*), garantindo que cada seção conduza o usuário diretamente para a conversão.
+- **Projetos Realizados:** Páginas para lançamentos digitais, clínicas médicas, campanhas eleitorais (santinhos digitais), empresas de serviços e e-commerce local.
+
+---
+
 ## 🏆 Reconhecimentos, Pesquisa & Impacto
 
 <div align="center">
@@ -476,6 +546,7 @@ Estou sempre aberto a novos projetos, parcerias estratégicas, consultorias de i
   <a href="https://publicidadees.com.br" target="_blank"><img src="https://img.shields.io/badge/Publicidade_ES-FE2C55?style=for-the-badge&logo=safari&logoColor=white" alt="Publicidade ES" /></a>
   <a href="https://workut.cc" target="_blank"><img src="https://img.shields.io/badge/Workut-FF9900?style=for-the-badge&logo=firefoxbrowser&logoColor=white" alt="Workut" /></a>
   <a href="https://www.joysweet.online" target="_blank"><img src="https://img.shields.io/badge/JoySweet-EC4899?style=for-the-badge&logo=googlechrome&logoColor=white" alt="JoySweet" /></a>
+  <a href="https://lovememory.space" target="_blank"><img src="https://img.shields.io/badge/LoveMemory-FF2E93?style=for-the-badge&logo=googlechrome&logoColor=white" alt="LoveMemory" /></a>
 </p>
 
 <div align="center">
