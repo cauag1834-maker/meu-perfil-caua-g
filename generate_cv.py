@@ -17,7 +17,7 @@ html_content = f"""<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<title>Currículo - Cauã Gustavo da Silva Bernardino</title>
+<title>Currículo: Cauã Gustavo da Silva Bernardino</title>
 <style>
   @page {{
     size: A4;
@@ -405,7 +405,7 @@ html_content = f"""<!DOCTYPE html>
             </li>
             <li class="contact-item">
               <span class="c-label">Localização</span>
-              <span class="c-val">Vitória – ES | Bairro Nova Palestina (CEP: 29032-364)</span>
+              <span class="c-val">Vitória/ES | Bairro Nova Palestina (CEP: 29032-364)</span>
             </li>
             <li class="contact-item">
               <span class="c-label">LinkedIn</span>
@@ -499,7 +499,7 @@ html_content = f"""<!DOCTYPE html>
           <div class="timeline-item">
             <div class="job-header">
               <div class="job-title">Google Student Ambassador</div>
-              <div class="job-date">Ago. 2026 – Presente</div>
+              <div class="job-date">Ago. 2026 a Presente</div>
             </div>
             <div class="job-company">Google for Education & Amplifica <span>· Remoto / Nacional</span></div>
             <ul class="job-bullets">
@@ -512,7 +512,7 @@ html_content = f"""<!DOCTYPE html>
           <div class="timeline-item">
             <div class="job-header">
               <div class="job-title">Suporte Técnico & Analista de Integração / Atendimento Multicanal</div>
-              <div class="job-date">Jun. 2025 – Presente</div>
+              <div class="job-date">Jun. 2025 a Presente</div>
             </div>
             <div class="job-company">Workflow App / Business <span>· Vitória/ES (Remoto / Presencial)</span></div>
             <ul class="job-bullets">
@@ -527,7 +527,7 @@ html_content = f"""<!DOCTYPE html>
           <!-- POLÍCIA MILITAR (PROJETO ACADÊMICO VET) -->
           <div class="timeline-item">
             <div class="job-header">
-              <div class="job-title">Desenvolvedor de Software (FlutterFlow) — Projeto Acadêmico</div>
+              <div class="job-title">Desenvolvedor de Software (FlutterFlow) · Projeto Acadêmico</div>
               <div class="job-date">Projeto Prático</div>
             </div>
             <div class="job-company">Polícia Militar / Atividade Prática Acadêmica <span>· Vitória/ES</span></div>
@@ -541,7 +541,7 @@ html_content = f"""<!DOCTYPE html>
           <div class="timeline-item">
             <div class="job-header">
               <div class="job-title">Correspondente Bancário & Vendas</div>
-              <div class="job-date">Set. 2024 – Fev. 2025</div>
+              <div class="job-date">Set. 2024 a Fev. 2025</div>
             </div>
             <div class="job-company">OK BANK <span>· 6 meses</span></div>
             <ul class="job-bullets">
@@ -554,7 +554,7 @@ html_content = f"""<!DOCTYPE html>
           <div class="timeline-item">
             <div class="job-header">
               <div class="job-title">Assistente Administrativo</div>
-              <div class="job-date">Ago. 2023 – Dez. 2024</div>
+              <div class="job-date">Ago. 2023 a Dez. 2024</div>
             </div>
             <div class="job-company">PME Máquinas e Equipamentos <span>· 1 ano e 5 meses</span></div>
             <ul class="job-bullets">
@@ -582,7 +582,7 @@ html_content = f"""<!DOCTYPE html>
       </div>
       <div class="header-p2-contact">
         +55 (27) 99781-7164 · cauag1834@gmail.com<br>
-        Vitória – ES | Bairro Nova Palestina · github.com/cauag1834-maker
+        Vitória/ES | Bairro Nova Palestina · github.com/cauag1834-maker
       </div>
     </div>
 
@@ -606,7 +606,7 @@ html_content = f"""<!DOCTYPE html>
           </div>
 
           <div style="margin-bottom: 6px;">
-            <div style="font-weight: 800; font-size: 8.3pt; color: #0f172a;">Iniciação Científica — FAPES & EMESCAM</div>
+            <div style="font-weight: 800; font-size: 8.3pt; color: #0f172a;">Iniciação Científica: FAPES & EMESCAM</div>
             <div style="font-size: 7.7pt; color: #0284c7; font-weight: 600;">Governo do Estado do ES & EMESCAM</div>
             <p style="font-size: 7.3pt; color: #475569; margin-top: 1.5px;">
               Pesquisa acadêmica sobre combate ao preconceito nas escolas públicas e elaboração de cartilha educativa.
@@ -683,7 +683,7 @@ html_content = f"""<!DOCTYPE html>
             <!-- 1. UVV EAD -->
             <div class="proj-card">
               <div class="proj-title">
-                <span>1. Sistema EAD — Universidade Vila Velha (UVV)</span>
+                <span>1. Sistema EAD: Universidade Vila Velha (UVV)</span>
                 <span class="proj-status">EM PRODUÇÃO</span>
               </div>
               <div class="proj-desc">
@@ -719,7 +719,7 @@ html_content = f"""<!DOCTYPE html>
             <!-- 4. MEDSYSTEM -->
             <div class="proj-card">
               <div class="proj-title">
-                <span>4. MedSystem — Prontuário IA & Prescrição Memed</span>
+                <span>4. MedSystem: Prontuário IA & Prescrição Memed</span>
                 <span class="proj-status">HOMOLOGAÇÃO</span>
               </div>
               <div class="proj-desc">
@@ -731,7 +731,7 @@ html_content = f"""<!DOCTYPE html>
             <!-- 5. WORKUT -->
             <div class="proj-card">
               <div class="proj-title">
-                <span>5. Workut — SaaS de Gestão para Estética & Beleza</span>
+                <span>5. Workut: SaaS de Gestão para Estética & Beleza</span>
                 <span class="proj-status">PRODUÇÃO & EXPANSÃO</span>
               </div>
               <div class="proj-desc">
