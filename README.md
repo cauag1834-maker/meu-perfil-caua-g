@@ -27,6 +27,7 @@
 
 <!-- STATUS BADGES -->
 <p align="center">
+  <a href="curriculo-caua-gustavo.pdf" target="_blank"><img src="https://img.shields.io/badge/Currículo-Download_PDF-E11D48?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Currículo PDF" /></a>
   <a href="https://www.linkedin.com/in/cau%C3%A3-gustavo-da-silva-bernardino-455005304/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-Perfil_Profissional-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="#-atuação-profissional-workflow-business"><img src="https://img.shields.io/badge/Empresa_Atual-Workflow_Business-007ACC?style=for-the-badge&logo=slack&logoColor=white" alt="Workflow Business" /></a>
   <a href="#-embaixador-estudantil-do-google-2026"><img src="https://img.shields.io/badge/Google-Student_Ambassador_2026-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Ambassador" /></a>
@@ -38,6 +39,7 @@
   📍 <strong>Espírito Santo, Brasil</strong> &nbsp;|&nbsp; 
   🎂 <strong>21 anos</strong> &nbsp;|&nbsp; 
   💼 <strong>Full Stack & AI Engineer</strong> &nbsp;|&nbsp; 
+  📄 <a href="curriculo-caua-gustavo.pdf" target="_blank"><strong>Currículo (PDF)</strong></a> &nbsp;|&nbsp; 
   🔗 <a href="https://www.linkedin.com/in/cau%C3%A3-gustavo-da-silva-bernardino-455005304/" target="_blank"><strong>LinkedIn</strong></a> &nbsp;|&nbsp; 
   🌐 <a href="https://github.com/cauag1834-maker"><strong>@cauag1834-maker</strong></a>
 </p>
@@ -556,6 +558,7 @@ Um ecossistema tecnológico só prospera com parcerias sólidas e suporte estrat
 Estou sempre aberto a novos projetos, parcerias estratégicas, consultorias de integração de IA e oportunidades desafiadoras:
 
 <p align="center">
+  <a href="curriculo-caua-gustavo.pdf" target="_blank"><img src="https://img.shields.io/badge/Currículo-Download_PDF-E11D48?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Currículo PDF" /></a>
   <a href="https://www.linkedin.com/in/cau%C3%A3-gustavo-da-silva-bernardino-455005304/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://github.com/cauag1834-maker" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
   <a href="https://workflow.app.br" target="_blank"><img src="https://img.shields.io/badge/Workflow_Business-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Workflow" /></a>
