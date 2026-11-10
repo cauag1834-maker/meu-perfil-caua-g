@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- HEADER BANNER ANIMADO -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=15,19,24,28,34&height=260&section=header&text=Cauã%20Gustavo%20da%20Silva&fontSize=42&fontAlignY=34&desc=Engenharia%20da%20Computa%C3%A7%C3%A3o%20(6%C2%BA%20Per%C3%ADodo%20%C2%B7%20Multivix%20Vit%C3%B3ria)%20%7C%20Full%20Stack%20&%20IA&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Banner Cauã Gustavo" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=15,19,24,28,34&height=260&section=header&text=Cauã%20Gustavo%20da%20Silva&fontSize=42&fontAlignY=34&desc=Engenharia%20da%20Computa%C3%A7%C3%A3o%20(6%C2%BA%20Per%C3%ADodo%20%C2%B7%20Multivix%20Vit%C3%B3ria)%20%7C%20Intelig%C3%AAncia%20Artificial&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Banner Cauã Gustavo" width="100%" />
 
 <!-- FOTO DE PERFIL OFICIAL -->
 <p align="center">
@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%26+Arquiteto+de+Software;Especialista+em+Organiza%C3%A7%C3%A3o+Empresarial+%26+Processos+Comerciais;Engenharia+de+Automa%C3%A7%C3%B5es+%26+Chatbots+na+Workflow;Onde+h%C3%A1+processos%2C+eu+entro%2C+organizo+e+transformo;Transformando+projetos+em+realidade+e+resultado+comercial;Embaixador+Estudantil+do+Google+2026" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Engenharia+da+Computa%C3%A7%C3%A3o+(Multivix+Vit%C3%B3ria);Especialista+em+Organiza%C3%A7%C3%A3o+Empresarial+%26+Processos+Comerciais;Engenharia+de+Automa%C3%A7%C3%B5es+%26+Chatbots+na+Workflow;Onde+h%C3%A1+processos%2C+eu+entro%2C+organizo+e+transformo;Transformando+projetos+em+realidade+e+resultado+comercial;Embaixador+Estudantil+do+Google+2026" alt="Typing SVG" />
 </p>
 
 <!-- LINKS DOS SITES NO AR -->
@@ -78,7 +78,7 @@
 > ### ⚡ Frase de Efeito & Posicionamento
 > *"Onde há processos para otimizar, eu e minha equipe entramos, organizamos e transformamos tecnologia em realidade e resultado comercial."*
 
-Olá! Sou **Cauã Gustavo da Silva Bernardino**, estudante do **6º período de Engenharia da Computação na Faculdade Multivix Vitória** (21 anos, residente no Espírito Santo). Atuo na intersecção entre **engenharia da computação**, **desenvolvimento full stack**, **organização empresarial**, **otimização de processos comerciais** e **inteligência artificial aplicada a negócios**.
+Olá! Sou **Cauã Gustavo da Silva Bernardino**, estudante do **6º período de Engenharia da Computação na Faculdade Multivix Vitória** (21 anos, residente em Vitória/ES). Atuo na intersecção entre **engenharia da computação**, **desenvolvimento de software**, **organização empresarial**, **otimização de processos comerciais** e **inteligência artificial aplicada a negócios**.
 
 ### 🏢 Minha Principal Especialidade: Organização Empresarial & Processos Comerciais
 O fator primordial pelo qual diretores, empresários e sócios-investidores me chamam para liderar seus projetos é a capacidade de **organização empresarial e reestruturação de processos comerciais**:
