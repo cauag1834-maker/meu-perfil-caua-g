@@ -3,8 +3,24 @@
 <!-- HEADER BANNER ANIMADO -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=15,19,24,28,34&height=260&section=header&text=Cauã%20Gustavo%20da%20Silva&fontSize=42&fontAlignY=34&desc=Full%20Stack%20Engineer%20%7C%20AI%20&%20Cloud%20Solutions%20%7C%20Google%20Student%20Ambassador%202026&descAlignY=58&descAlign=50&fontColor=ffffff" alt="Banner Cauã Gustavo" width="100%" />
 
+<!-- FOTO DE PERFIL OFICIAL -->
+<p align="center">
+  <img src="assets/profile.jpg" alt="Cauã Gustavo da Silva Bernardino" width="190" height="190" style="border-radius: 50%; object-fit: cover; border: 4px solid #38bdf8; box-shadow: 0 8px 30px rgba(56, 189, 248, 0.45); margin-top: -30px;" />
+</p>
+
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=2800&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Full+Stack+Developer+%26+Especialista+em+Integra%C3%A7%C3%B5es+de+IA;Engenharia+de+Automa%C3%A7%C3%B5es+%26+Chatbots+na+Workflow+Business;Embaixador+Estudantil+do+Google+2026;Arquiteto+de+Solu%C3%A7%C3%B5es+SaaS+Multi-Tenant+%26+APIs+WhatsApp;Transformando+c%C3%B3digo+em+impacto+comercial+e+social" alt="Typing SVG" />
+</p>
+
+<!-- LINKS DOS SITES NO AR -->
+<p align="center">
+  <a href="https://workflow.app.br/" target="_blank"><img src="https://img.shields.io/badge/Workflow_Business-workflow.app.br-007ACC?style=flat-square&logo=googlechrome&logoColor=white" alt="Workflow" /></a>
+  <a href="https://workut.cc/" target="_blank"><img src="https://img.shields.io/badge/Workut-workut.cc-FF9900?style=flat-square&logo=googlechrome&logoColor=white" alt="Workut" /></a>
+  <a href="https://www.vetio.cc/" target="_blank"><img src="https://img.shields.io/badge/Vetio_2.0-vetio.cc-10B981?style=flat-square&logo=googlechrome&logoColor=white" alt="Vetio" /></a>
+  <a href="https://www.publiview360.com.br/" target="_blank"><img src="https://img.shields.io/badge/PubliView_360-publiview360.com.br-6366F1?style=flat-square&logo=googlechrome&logoColor=white" alt="PubliView360" /></a>
+  <a href="https://www.publiview.online/" target="_blank"><img src="https://img.shields.io/badge/PubliView_Online-publiview.online-38BDF8?style=flat-square&logo=googlechrome&logoColor=white" alt="PubliView Online" /></a>
+  <a href="https://business.publiview360.com.br/" target="_blank"><img src="https://img.shields.io/badge/PubliView_Business-business.publiview360.com.br-8B5CF6?style=flat-square&logo=googlechrome&logoColor=white" alt="PubliView Business" /></a>
+  <a href="https://publicidadees.com.br/" target="_blank"><img src="https://img.shields.io/badge/Publicidade_ES-publicidadees.com.br-FE2C55?style=flat-square&logo=googlechrome&logoColor=white" alt="Publicidade ES" /></a>
 </p>
 
 <!-- STATUS BADGES -->
@@ -29,6 +45,7 @@
 ## 📌 Navegação Rápida
 
 - [👋 Sobre Mim](#-sobre-mim)
+- [🌟 Clientes & Parceiros de Referência](#-clientes--parceiros-de-referência)
 - [🏢 Atuação Profissional: Workflow Business](#-atuação-profissional-workflow-business)
 - [🚀 As 6 Plataformas Digitais (Documentação Mestra)](#-as-6-plataformas-digitais-documentação-mestra)
   - [1. Workut — Gestão para Beleza & Bem-Estar](#1--workut--gestão-para-beleza--bem-estar)
@@ -60,12 +77,12 @@ Também tenho a honra de ter sido selecionado como **Embaixador Estudantil do Go
   <table>
     <tr>
       <td width="50%" align="center">
-        <img src="./assets/caua-workshop.jpg" alt="Cauã Gustavo em Workshop de IA" width="100%" style="border-radius: 10px;" />
+        <img src="assets/caua-workshop.jpg" alt="Cauã Gustavo em Workshop de IA" width="100%" style="border-radius: 10px;" />
         <br />
         <em>Cauã Gustavo no Workshop "IA na Prática" (IAP)</em>
       </td>
       <td width="50%" align="center">
-        <img src="./assets/caua-networking.jpg" alt="Cauã Gustavo Networking" width="100%" style="border-radius: 10px;" />
+        <img src="assets/caua-networking.jpg" alt="Cauã Gustavo Networking" width="100%" style="border-radius: 10px;" />
         <br />
         <em>Debatendo arquiteturas e integrações tecnológicas</em>
       </td>
@@ -75,12 +92,34 @@ Também tenho a honra de ter sido selecionado como **Embaixador Estudantil do Go
 
 ---
 
+## 🌟 Clientes & Parceiros de Referência
+
+O portfólio e as plataformas desenvolvidas reúnem clientes reais, mandatos, figuras públicas e redes empresariais em operação diária no Espírito Santo, no Brasil e no exterior:
+
+| Cliente / Parceiro | Segmento / Perfil | Plataforma | O que Utilizou / Impacto Real Entregue |
+| :--- | :--- | :--- | :--- |
+| **Arnaldinho Borgo**<br>*(Prefeito de Vila Velha)* | Setor Público & Política | **PubliView360** | Atendimento à rede de candidatos alinhados ao seu grupo político nas Eleições 2026, com mobilização e canais digitais unificados. |
+| **Lyza Herzog**<br>*(Candidata a Deputada Estadual)* | Mandato Parlamentar | **PubliView360 + PubliOnline** | **50 santinhos digitais interativos** e **20 números dedicados de WhatsApp** integrados para engajamento e captação de eleitores. |
+| **Arnóbio**<br>*(Aliado do Grupo Lorenzo Pazolini)* | Inteligência & Gestão | **PubliView360** | Utilizou o módulo de monitoramento de redes sociais, análise de sentimento com IA e radar de posicionamento eleitoral. |
+| **Dom Cabral Barbearia** | Beleza & Barbearia Premium | **Workut** | Gestão diária de agenda multi-profissional sem duplicidades, frente de caixa PDV e programa de fidelidade **Clube VIP**. |
+| **Don Concept Lounge** | Estética & Salão de Beleza | **Workut** | Operação completa de agendamento online 24h, fechamento cego de caixa e cálculo automatizado de comissões por colaborador. |
+| **Aura Cosméticos / Aura Brasil** | Distribuição Internacional | **Workut Internacional** | Acordo para expansão internacional do Workut na **Venezuela**, conectando barbeiros e salões venezuelanos à plataforma. |
+| **FF Pet Center** *(Vila Velha/ES)* | Clínica Veterinária & Pet Center | **Vetio 2.0** | Prontuário médico digital em uso clínico diário, vacinas por lote (FEFO) e implantação das **Smart Tags QR/NFC** com resgate SOS. |
+| **Assistências Técnicas de Celular do ES** | Manutenção & Reparo de Dispositivos | **HELPIA** | Atendimento centralizado por WhatsApp, Ordens de Serviço (OS) com fotos e PDF timbrado, além de cobrança automática por Pix. |
+| **Carteira de 400+ Médicos e Clínicas**<br>*(Agências 4Nexus & Viso)* | Saúde, Odontologia & Estética | **MedSystem** | Base médica em fase de homologação com prontuário por voz via **Google Gemini** (SOAP), receita digital **Memed (ICP-Brasil)** e split financeiro. |
+| **Empreendedora Universitária UFES**<br>*(Doces & Artesanatos)* | Empreendedorismo Estudantil | **Cartão Fidelidade Digital** | Sistema 100% online e automatizado de fidelização e cashback para aluna da Universidade Federal do Espírito Santo. |
+| **Contas Corporativas da Workflow** | Chatbots, CRM & IA | **Workflow Business** | Suporte técnico avançado e engenharia de integrações com formulários Meta Ads (Leads), Hotmart, Ubla e sistemas de saúde. |
+
+---
+
 ## 🏢 Atuação Profissional: Workflow Business
 
-A **Workflow Business** é uma das principais empresas especializadas em chatbots, comunicação inteligente e automação com Inteligência Artificial.
+A **Workflow Business** é uma das principais empresas capixabas especializadas em chatbots, comunicação inteligente e automação com Inteligência Artificial.
+- 🌐 **Site Oficial:** [workflow.app.br](https://workflow.app.br/) ↗
+- 💻 **Plataforma Web:** [space.workflow.app.br](https://space.workflow.app.br/) ↗
 
 <div align="center">
-  <img src="./assets/workflow-app-preview.jpg" alt="Painel do Workflow App em Operação" width="90%" style="border-radius: 10px; border: 1px solid #334155;" />
+  <img src="assets/workflow-app-preview.jpg" alt="Painel do Workflow App em Operação" width="90%" style="border-radius: 10px; border: 1px solid #334155;" />
   <br />
   <em>Painel do Workflow App em operação real — gestão de atendimentos, filas de suporte e automação inteligente</em>
 </div>
@@ -107,7 +146,7 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
 > *Plataforma SaaS de gestão integrada para barbearias, salões de beleza e clínicas de estética.*
 
 <div align="center">
-  <img src="./assets/workut-preview.jpg" alt="Workut Agenda em Operação" width="85%" style="border-radius: 10px; border: 1px solid #334155;" />
+  <img src="assets/workut-preview.jpg" alt="Workut Agenda em Operação" width="85%" style="border-radius: 10px; border: 1px solid #334155;" />
   <br />
   <em>Workut em funcionamento: grade de agenda multi-profissional em tempo real (Dom Cabral Barbearia)</em>
 </div>
@@ -139,6 +178,7 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
 - **Clientes Reais / Tração:**
   - 🏥 **FF Pet Center** (Vila Velha/ES — em uso ativo na rotina clínica e comercial).
 - **Stack Técnica:** Next.js 14, React 18, Supabase Enterprise, HTML5 Geolocation API, WebSockets Realtime, WAHA.
+- **Link Oficial:** [vetio.cc](https://www.vetio.cc/) ↗
 
 ---
 
@@ -146,12 +186,16 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
 > *Ecossistema de gestão de mandatos, inteligência eleitoral, CRM de lideranças e comunicação em massa.*
 
 <div align="center">
-  <img src="./assets/publiview-preview.jpg" alt="PubliView Online em Operação" width="85%" style="border-radius: 10px; border: 1px solid #334155;" />
+  <img src="assets/publiview-preview.jpg" alt="PubliView Online em Operação" width="85%" style="border-radius: 10px; border: 1px solid #334155;" />
   <br />
   <em>PubliView Online: plataforma de campanha, gestão de santinho digital e comunidades mobilizadas</em>
 </div>
 
 - **Proposta de Valor:** Transforma dados de eleitores, demandas públicas e ações de rua em uma visão 360° com rastreabilidade, compliance com a LGPD e conformidade com as regras eleitorais.
+- **Links Oficiais:**
+  - 🌐 **PubliView 360:** [publiview360.com.br](https://www.publiview360.com.br/) ↗
+  - 🌐 **PubliView Online:** [publiview.online](https://www.publiview.online/) ↗
+  - 🌐 **PubliView Business:** [business.publiview360.com.br](https://business.publiview360.com.br/) ↗
 - **Módulos Principais & Recursos:**
   - **Santinho Digital Interativo:** Microsite móvel com biografia, propostas temáticas, QR Code, formulário de adesão voluntária e chave PIX oficial auditada.
   - **Roteador Inteligente de Grupos (`/go/:slug`):** Distribuição automática de novos membros em grupos de WhatsApp com transbordo automático quando o grupo atinge a lotação máxima.
@@ -205,12 +249,12 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
   <table>
     <tr>
       <td width="50%" align="center">
-        <img src="./assets/publicidade-es-screen.jpg" alt="Portal Publicidade ES" width="100%" style="border-radius: 10px; border: 1px solid #334155;" />
+        <img src="assets/publicidade-es-screen.jpg" alt="Portal Publicidade ES" width="100%" style="border-radius: 10px; border: 1px solid #334155;" />
         <br />
         <em>Portal Publicidade ES: comunidade, conteúdo e vagas nos 78 municípios do ES</em>
       </td>
       <td width="50%" align="center">
-        <img src="./assets/publicidade-es-keynote.jpg" alt="Apresentação do Publicidade ES" width="100%" style="border-radius: 10px; border: 1px solid #334155;" />
+        <img src="assets/publicidade-es-keynote.jpg" alt="Apresentação do Publicidade ES" width="100%" style="border-radius: 10px; border: 1px solid #334155;" />
         <br />
         <em>Apresentação do Publicidade ES em plenária para profissionais e investidores</em>
       </td>
@@ -237,7 +281,7 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
 ## 🏆 Reconhecimentos, Pesquisa & Impacto
 
 <div align="center">
-  <img src="./assets/google-ambassador.jpg" alt="Certificado Embaixador Estudantil do Google 2026" width="70%" style="border-radius: 10px; border: 1px solid #334155;" />
+  <img src="assets/google-ambassador.jpg" alt="Certificado Embaixador Estudantil do Google 2026" width="70%" style="border-radius: 10px; border: 1px solid #334155;" />
   <br />
   <em>Certificado oficial: Cauã Gustavo da Silva Bernardino — Embaixador Estudantil do Google 2026</em>
 </div>
@@ -254,7 +298,7 @@ Todas as 6 plataformas foram desenvolvidas sobre uma base arquitetural comum de 
 
 ### 🧠 Imersão em IA — Evento IAP (IA na Prática)
 <div align="center">
-  <img src="./assets/iap-event.jpg" alt="Caderno IAP IA na Prática" width="50%" style="border-radius: 8px; border: 1px solid #334155;" />
+  <img src="assets/iap-event.jpg" alt="Caderno IAP IA na Prática" width="50%" style="border-radius: 8px; border: 1px solid #334155;" />
 </div>
 
 - Participação presencial e imersão técnica com líderes de tecnologia no evento intensivo **IAP — Inteligência Artificial na Prática**, aprofundando agentes autônomos, fine-tuning e infraestrutura para IA.
@@ -371,29 +415,29 @@ Um ecossistema tecnológico só prospera com parcerias sólidas e suporte estrat
   <table>
     <tr>
       <td width="33%" align="center">
-        <img src="./assets/caua-workshop.jpg" width="100%" alt="Workshop IA" />
+        <img src="assets/caua-workshop.jpg" width="100%" alt="Workshop IA" />
         <br /><strong>Imersão Técnica</strong>
       </td>
       <td width="33%" align="center">
-        <img src="./assets/caua-networking.jpg" width="100%" alt="Networking" />
+        <img src="assets/caua-networking.jpg" width="100%" alt="Networking" />
         <br /><strong>Conexões Estratégicas</strong>
       </td>
       <td width="33%" align="center">
-        <img src="./assets/workflow-app-preview.jpg" width="100%" alt="Workflow App" />
+        <img src="assets/workflow-app-preview.jpg" width="100%" alt="Workflow App" />
         <br /><strong>Operação Workflow App</strong>
       </td>
     </tr>
     <tr>
       <td width="33%" align="center">
-        <img src="./assets/workut-preview.jpg" width="100%" alt="Workut Agenda" />
+        <img src="assets/workut-preview.jpg" width="100%" alt="Workut Agenda" />
         <br /><strong>Workut em Produção</strong>
       </td>
       <td width="33%" align="center">
-        <img src="./assets/publiview-preview.jpg" width="100%" alt="PubliView 360" />
+        <img src="assets/publiview-preview.jpg" width="100%" alt="PubliView 360" />
         <br /><strong>PubliView Online</strong>
       </td>
       <td width="33%" align="center">
-        <img src="./assets/publicidade-es-keynote.jpg" width="100%" alt="Publicidade ES Keynote" />
+        <img src="assets/publicidade-es-keynote.jpg" width="100%" alt="Publicidade ES Keynote" />
         <br /><strong>Publicidade ES Plenária</strong>
       </td>
     </tr>

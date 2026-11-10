@@ -593,6 +593,74 @@
       border-radius: 6px;
     }
 
+    /* Clients Grid */
+    .clients-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .client-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      display: flex;
+      flex-direction: column;
+      transition: var(--transition);
+      position: relative;
+    }
+    .client-card:hover {
+      border-color: var(--border-accent);
+      transform: translateY(-4px);
+      box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.5);
+    }
+    .client-card-header {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 12px;
+    }
+    .client-icon {
+      font-size: 1.8rem;
+      background: rgba(255, 255, 255, 0.05);
+      width: 48px;
+      height: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      flex-shrink: 0;
+    }
+    .client-card-header h4 {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: #f1f5f9;
+    }
+    .client-sub {
+      font-size: 0.78rem;
+      color: var(--primary);
+      display: block;
+    }
+    .client-card-text {
+      color: var(--text-muted);
+      font-size: 0.88rem;
+      line-height: 1.5;
+      margin-bottom: 16px;
+      flex-grow: 1;
+    }
+    .client-platform-tag {
+      align-self: flex-start;
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      color: #cbd5e1;
+      font-size: 0.75rem;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 3px 10px;
+      border-radius: 6px;
+    }
+
     /* Partners / Supporters */
     .partners-box {
       background: rgba(255, 255, 255, 0.02);
@@ -714,6 +782,7 @@
       </a>
       <div class="nav-links">
         <a href="#sobre">Sobre</a>
+        <a href="#clientes">Clientes</a>
         <a href="#workflow">Workflow Business</a>
         <a href="#projetos">Projetos & SaaS</a>
         <a href="#reconhecimentos">Conquistas</a>
@@ -758,8 +827,8 @@
 
         <div class="hero-visual">
           <div class="profile-card">
-            <div class="profile-img-wrap" onclick="openLightbox('./assets/caua-workshop.jpg')">
-              <img src="./assets/caua-workshop.jpg" alt="Cauã Gustavo da Silva Bernardino">
+            <div class="profile-img-wrap" onclick="openLightbox('assets/profile.jpg')">
+              <img src="assets/profile.jpg" alt="Cauã Gustavo da Silva Bernardino">
             </div>
             <div class="profile-meta">
               <h3>Cauã Gustavo da Silva</h3>
@@ -790,6 +859,156 @@
         <div class="stat-card">
           <div class="stat-number">8.000+</div>
           <div class="stat-label">Membros na Comunidade WhatsApp</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLIENTS & PARTNERS SHOWCASE -->
+  <section id="clientes" style="padding: 40px 0 60px;">
+    <div class="container">
+      <div class="section-head">
+        <div class="section-subtitle">OPERAÇÃO REAL & CONFIANÇA</div>
+        <h2 class="section-title">Clientes & Figuras Públicas Atendidas</h2>
+        <p class="section-desc">
+          Mandatos, lideranças políticas, clínicas, barbearias premium e redes corporativas que utilizam ou apoiam ativamente as soluções tecnológicas desenvolvidas.
+        </p>
+      </div>
+
+      <div class="clients-grid">
+        <!-- 1 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">🗳️</span>
+            <div>
+              <h4>Arnaldinho Borgo</h4>
+              <span class="client-sub">Prefeito de Vila Velha / Rede Política</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            A plataforma atendeu toda a rede de candidatos alinhados ao seu grupo político nas Eleições 2026, com mobilização, território e canais digitais.
+          </p>
+          <span class="client-platform-tag">PubliView360</span>
+        </div>
+
+        <!-- 2 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">📢</span>
+            <div>
+              <h4>Lyza Herzog</h4>
+              <span class="client-sub">Candidata a Deputada Estadual</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Utilizou <strong>50 santinhos digitais interativos</strong> e <strong>20 números de WhatsApp</strong> dedicados integrados para relacionamento com eleitores.
+          </p>
+          <span class="client-platform-tag">PubliView360 + PubliOnline</span>
+        </div>
+
+        <!-- 3 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">📊</span>
+            <div>
+              <h4>Arnóbio</h4>
+              <span class="client-sub">Grupo Lorenzo Pazolini</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Utilizou o módulo de inteligência de dados, monitoramento social e análise de sentimento com IA para acompanhamento eleitoral.
+          </p>
+          <span class="client-platform-tag">PubliView360</span>
+        </div>
+
+        <!-- 4 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">✂️</span>
+            <div>
+              <h4>Dom Cabral Barbearia</h4>
+              <span class="client-sub">Barbearia Premium</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Gestão da operação diária com agenda sem conflitos, PDV, frente de caixa cego e recorrência com o Clube VIP.
+          </p>
+          <span class="client-platform-tag">Workut</span>
+        </div>
+
+        <!-- 5 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">💈</span>
+            <div>
+              <h4>Don Concept Lounge</h4>
+              <span class="client-sub">Salão de Beleza & Estética</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Agendamento online 24h, gestão de clientes, controle de estoque e cálculo automático de comissões por colaborador.
+          </p>
+          <span class="client-platform-tag">Workut</span>
+        </div>
+
+        <!-- 6 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">🇻🇪</span>
+            <div>
+              <h4>Aura Cosméticos</h4>
+              <span class="client-sub">Parceiro Internacional (Venezuela)</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Expansão internacional do Workut na Venezuela, conectando barbeiros e fornecedores a um ecossistema digital integrado.
+          </p>
+          <span class="client-platform-tag">Workut Internacional</span>
+        </div>
+
+        <!-- 7 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">🐾</span>
+            <div>
+              <h4>FF Pet Center</h4>
+              <span class="client-sub">Clínica & Centro Pet (Vila Velha/ES)</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Operação clínica e comercial em uso ativo, prontuário veterinário e ativação das Smart Tags QR/NFC com resgate SOS.
+          </p>
+          <span class="client-platform-tag">Vetio 2.0</span>
+        </div>
+
+        <!-- 8 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">🩺</span>
+            <div>
+              <h4>Carteira de 400+ Médicos</h4>
+              <span class="client-sub">Agências 4Nexus & Viso Publicidade</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Mais de 400 médicos parceiros na esteira para uso do MedSystem com prontuário SOAP por voz (Google Gemini) e receita Memed.
+          </p>
+          <span class="client-platform-tag">MedSystem</span>
+        </div>
+
+        <!-- 9 -->
+        <div class="client-card">
+          <div class="client-card-header">
+            <span class="client-icon">📱</span>
+            <div>
+              <h4>Assistências Técnicas do ES</h4>
+              <span class="client-sub">Manutenção & Reparo de Celulares</span>
+            </div>
+          </div>
+          <p class="client-card-text">
+            Centralização de atendimento por WhatsApp, Ordens de Serviço (OS) com fotos e laudos PDF, além de cobrança automática por Pix.
+          </p>
+          <span class="client-platform-tag">HELPIA</span>
         </div>
       </div>
     </div>
@@ -832,13 +1051,18 @@
                 </div>
               </li>
             </ul>
-            <a href="https://space.workflow.app.br" target="_blank" class="btn-primary" style="display: inline-block; font-size: 0.9rem; padding: 10px 20px;">
-              Acessar Workflow App ↗
-            </a>
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="https://workflow.app.br" target="_blank" class="btn-primary" style="display: inline-block; font-size: 0.9rem; padding: 10px 20px;">
+                Site Oficial (workflow.app.br) ↗
+              </a>
+              <a href="https://space.workflow.app.br" target="_blank" class="btn-secondary" style="display: inline-block; font-size: 0.9rem; padding: 10px 20px;">
+                Workflow App ↗
+              </a>
+            </div>
           </div>
 
-          <div class="workflow-preview-wrap" onclick="openLightbox('./assets/workflow-app-preview.jpg')">
-            <img src="./assets/workflow-app-preview.jpg" alt="Painel do Workflow App">
+          <div class="workflow-preview-wrap" onclick="openLightbox('assets/workflow-app-preview.jpg')">
+            <img src="assets/workflow-app-preview.jpg" alt="Painel do Workflow App">
           </div>
         </div>
       </div>
@@ -869,8 +1093,8 @@
 
         <!-- 1. WORKUT -->
         <div class="project-card" data-category="saas">
-          <div class="card-thumb" onclick="openLightbox('./assets/workut-preview.jpg')">
-            <img src="./assets/workut-preview.jpg" alt="Workut Preview">
+          <div class="card-thumb" onclick="openLightbox('assets/workut-preview.jpg')">
+            <img src="assets/workut-preview.jpg" alt="Workut Preview">
             <span class="card-category">BELEZA & ESTÉTICA</span>
           </div>
           <div class="card-body">
@@ -921,15 +1145,15 @@
               <span class="tech-pill">PostgreSQL</span>
             </div>
             <div class="card-links">
-              <span class="btn-link-action" style="color: #34d399;">Operação Ativa 🟢</span>
+              <a href="https://www.vetio.cc" target="_blank" class="btn-link-action" style="color: #34d399;">Acessar vetio.cc ↗</a>
             </div>
           </div>
         </div>
 
         <!-- 3. PUBLIVIEW360 & PUBLIONLINE -->
         <div class="project-card" data-category="politica ia">
-          <div class="card-thumb" onclick="openLightbox('./assets/publiview-preview.jpg')">
-            <img src="./assets/publiview-preview.jpg" alt="PubliView Preview">
+          <div class="card-thumb" onclick="openLightbox('assets/publiview-preview.jpg')">
+            <img src="assets/publiview-preview.jpg" alt="PubliView Preview">
             <span class="card-category">GESTÃO POLÍTICA 360</span>
           </div>
           <div class="card-body">
@@ -947,8 +1171,10 @@
               <span class="tech-pill">IA Sentimento</span>
               <span class="tech-pill">Roteador /go/:slug</span>
             </div>
-            <div class="card-links">
-              <span class="btn-link-action" style="color: #38bdf8;">Comprovado em Eleições 🗳️</span>
+            <div class="card-links" style="flex-wrap: wrap; gap: 10px;">
+              <a href="https://www.publiview360.com.br" target="_blank" class="btn-link-action" style="color: #38bdf8;">publiview360.com.br ↗</a>
+              <a href="https://www.publiview.online" target="_blank" class="btn-link-action" style="color: #7dd3fc;">publiview.online ↗</a>
+              <a href="https://business.publiview360.com.br" target="_blank" class="btn-link-action" style="color: #a78bfa;">business.publiview360 ↗</a>
             </div>
           </div>
         </div>
@@ -1013,8 +1239,8 @@
 
         <!-- 6. PUBLICIDADE ES -->
         <div class="project-card" data-category="saas">
-          <div class="card-thumb" onclick="openLightbox('./assets/publicidade-es-screen.jpg')">
-            <img src="./assets/publicidade-es-screen.jpg" alt="Publicidade ES Preview">
+          <div class="card-thumb" onclick="openLightbox('assets/publicidade-es-screen.jpg')">
+            <img src="assets/publicidade-es-screen.jpg" alt="Publicidade ES Preview">
             <span class="card-category">ECOSSISTEMA CAPIXABA</span>
           </div>
           <div class="card-body">
@@ -1055,7 +1281,7 @@
 
       <div class="recognitions-grid">
         <!-- Google Ambassador -->
-        <div class="rec-card" onclick="openLightbox('./assets/google-ambassador.jpg')" style="cursor: pointer;">
+        <div class="rec-card" onclick="openLightbox('assets/google-ambassador.jpg')" style="cursor: pointer;">
           <div class="rec-icon">🎓</div>
           <div class="rec-info">
             <h4>Embaixador Estudantil do Google 2026</h4>
@@ -1091,7 +1317,7 @@
         </div>
 
         <!-- IAP Inteligência Artificial na Prática -->
-        <div class="rec-card" onclick="openLightbox('./assets/iap-event.jpg')" style="cursor: pointer;">
+        <div class="rec-card" onclick="openLightbox('assets/iap-event.jpg')" style="cursor: pointer;">
           <div class="rec-icon">🧠</div>
           <div class="rec-info">
             <h4>Imersão Técnica — IA na Prática (IAP)</h4>
